@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "总有人说虚拟机性能打折，我用 sysbench 在 Debian 宿主机和 PVE 虚拟机里各跑了一轮 CPU 测试，结果出乎意料：事件速率差距不到 1%，几乎可以忽略。附完整数据和结论，想测的自己也能复现。"
 tags: ["sysbench", "PVE", "虚拟化"]
 category: "折腾"
+draft: false
 ---
 
 一直好奇一个问题：同样一台机器，直接跑 Debian 和装在 PVE 虚拟机里跑，CPU 性能到底差多少？与其听别人说，不如自己测一把。

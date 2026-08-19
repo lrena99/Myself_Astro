@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "从安装脚本到自动清理，从短 Token 到长 Token，把小雅 Alist、Emby、TVBox 一次串起来。纯教程向记录：公开链接、安装命令、清理模式都在，跟着跑就能搭出全家都能用的家庭影视库。"
 tags: ["NAS", "小雅", "Alist", "Emby", "教程"]
 category: "NAS"
+draft: false
 ---
 
 记录一下小雅媒体库的搭建过程。小雅本质上是把阿里云盘的影视资源通过 Alist 挂载出来，再用 Emby 刮削成媒体库，最后配合 TVBox 观看，一套免费影视全家桶。

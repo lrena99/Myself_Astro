@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "一条指令关灯、拉窗帘、开投影？我想做的智能家居机器人，把 MCP、HomeAssistant、ESPHome 和 AI VTuber 串成一套系统，让小屏幕上的虚拟形象真能替你管整个家。这是我们的参赛方案，从技术选型到系统架构一次讲清楚。"
 tags: ["MCP", "智能家居", "HomeAssistant", "ESPHome", "AI VTuber"]
 category: "项目"
+draft: false
 ---
 
 # 把 AI 虚拟人装进智能家居

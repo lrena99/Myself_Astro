@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "Debian 的 logo 和某款药长得太像，于是有人做了个能打印的 Debian 药盒包装设计：300g 铜版纸、TIF 打印、沿线裁剪折叠，连说明书都有。喷墨打印光面铜版纸会掉色，别问我怎么知道的。"
 tags: ["Debian", "好玩", "DIY"]
 category: "折腾"
+draft: false
 ---
 
 刷 GitHub 的时候发现一个特别有意思的项目：[debian-media-box](https://github.com/moesoha/debian-media-box)。因为 Debian 的 logo 和某款药品长得十分相似，网上一直有「Debian 药」的梗，这个项目干脆把梗变成实物——一个专门用来包装 Debian 安装介质的药盒，平面设计全部开源，打印出来自己折叠就能用。

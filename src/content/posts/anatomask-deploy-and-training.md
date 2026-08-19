@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "自监督预训练 + nnUNet 体系的医学分割模型 AnatoMask，部署和训练全是硬骨头。从环境安装、数据集转换到 STUNet 预训练、权重加载、3D U-Net 训练，我把完整流程和踩过的坑压缩成一篇实操笔记，照着跑就行。"
 tags: ["AnatoMask", "医学图像分割", "nnUNet", "STUNet", "PyTorch"]
 category: "AI"
+draft: false
 ---
 
 # 从零跑通 AnatoMask：部署与训练全记录

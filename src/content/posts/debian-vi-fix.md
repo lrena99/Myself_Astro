@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "在 Debian 里用 vi 编辑文件，方向键变成 ABCD、退格键还删不了字？别急着换编辑器，这只是 vi 的兼容模式在作怪。改两行配置就能恢复，亲测有效，附完整操作步骤。"
 tags: ["vi", "Debian", "Linux"]
 category: "技术"
+draft: false
 ---
 
 用 Debian 的时候发现一个很烦人的问题：vi 进入插入模式后，方向键不听话了——按上下左右，屏幕上冒出来的却是 A/B/C/D 这样的字符，退格键也删不掉东西。

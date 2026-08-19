@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "服务器日志里全是陌生 IP 的登录尝试？Fail2Ban 就是干这个的：盯着系统日志，发现多次登录失败的 IP 直接拉黑。安装、配置 SSH 监控、看封禁效果，三步讲清楚，新手也能照做。"
 tags: ["fail2ban", "安全", "SSH"]
 category: "技术"
+draft: false
 ---
 
 如果你有一台暴露在公网上的 Linux 服务器，大概率在日志里见过一堆陌生 IP 的 SSH 登录尝试。手动一个个拉黑不现实，Fail2Ban 就是专门解决这个问题的。

@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "闲鱼 400 块淘到华硕工作站级 C236 主板：支持 ECC、8 SATA、双 M.2，扩展性拉满。配上 25W 的 E3-1235L v5 本想组台完美 NAS，结果被 E2176M 的百瓦功耗当场教育。真实蹲板经历和价格记录，NAS 装机党慎入。"
 tags: ["NAS", "主板", "闲鱼", "DIY", "ECC"]
 category: "NAS"
+draft: false
 ---
 
 ## 闲鱼上的一见钟情

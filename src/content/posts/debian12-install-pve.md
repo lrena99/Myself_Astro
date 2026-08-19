@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "不想重装系统，想直接在 Debian 12 上把 PVE 装出来？这份踩坑全记录拿走：加源、装内核、删旧内核、桥接网卡，一步不落。记住一句话：我替你试了，Ubuntu 不行。"
 tags: ["PVE", "Debian", "虚拟化"]
 category: "技术"
+draft: false
 ---
 
 网上 PVE 的安装教程基本都是「下载官方 ISO 装一遍」，但如果你已经有一台 Debian 12 的机器、不想重装系统，直接在上面装 PVE 也是可行的。我踩完坑，把完整流程记下来。

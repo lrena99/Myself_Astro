@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "想下载干净的 Windows 或 Office 官方镜像，却被各种第三方镜像站劝退？我长期用 MAS 项目整理的官方安装介质页面，一个地址搞定 Windows 和 Office 的官方镜像下载，省心又安全。"
 tags: ["Windows", "Office", "镜像下载", "系统"]
 category: "技术"
+draft: false
 ---
 
 每次重装系统都要找 Windows 镜像，网上各种镜像站质量参差不齐。我现在的做法很简单：认准 MAS 项目整理的官方安装介质页面。

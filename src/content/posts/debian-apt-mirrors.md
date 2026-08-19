@@ -4,6 +4,7 @@ published: 2026-08-19
 description: "Debian 12 装完第一件事就是换源。整理了三套 /etc/apt/sources.list 配置：个人镜像、科大、清华，bookworm 直接复制即用，apt update 速度起飞，安全更新源也给你配好了。"
 tags: ["Debian", "apt", "镜像源"]
 category: "技术"
+draft: false
 ---
 
 Debian 装完第一件事永远是换源，不然 `apt update` 能卡到你怀疑人生。我整理了三套亲测可用的 bookworm 源配置，写进 `/etc/apt/sources.list` 就能用。
