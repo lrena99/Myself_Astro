@@ -1,6 +1,6 @@
 ---
 title: "NAS 主板折腾记录：150 块的华擎 Z370 Pro4 能装下什么"
-published: 2026-08-19
+published: 2024-12-17
 description: "折腾 NAS 第一件事就是选板子。150 块淘来的华擎 Z370 Pro4：双 M.2、6 个 SATA、双 PCIe x16，还能点亮 ECC 内存条（虽然是非 ECC 模式）。Z370 时代白菜价的 NAS 潜力板，参数和取舍一次讲清楚。"
 tags: ["NAS", "主板", "华擎", "Z370", "折腾"]
 category: "NAS"

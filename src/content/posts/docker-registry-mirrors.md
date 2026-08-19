@@ -1,6 +1,6 @@
 ---
 title: "Docker 镜像拉不动？这份加速源清单我攒了好几年"
-published: 2026-08-19
+published: 2025-02-23
 description: "Docker Hub 动不动就拉不动，这些年我攒了一批还能用的镜像加速源，daocloud、ustc、azure、timeweb、网友自建的，全给你列出来，写进 registry-mirrors 就能救急。注意：第三方源不保证安全。"
 tags: ["Docker", "镜像加速", "容器"]
 category: "技术"

@@ -1,6 +1,6 @@
 ---
 title: "宿主机 vs PVE 虚拟机跑 sysbench：虚拟化到底损失多少性能？"
-published: 2026-08-19
+published: 2025-01-21
 description: "总有人说虚拟机性能打折，我用 sysbench 在 Debian 宿主机和 PVE 虚拟机里各跑了一轮 CPU 测试，结果出乎意料：事件速率差距不到 1%，几乎可以忽略。附完整数据和结论，想测的自己也能复现。"
 tags: ["sysbench", "PVE", "虚拟化"]
 category: "折腾"

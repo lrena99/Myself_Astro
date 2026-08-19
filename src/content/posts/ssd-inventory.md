@@ -1,6 +1,6 @@
 ---
 title: "12 月固态入库：PM883、RC20 与 Intel S4500"
-published: 2026-08-19
+published: 2024-12-18
 description: "三星 PM883、铠侠 RC20、Intel S4500 240G——2024 年 12 月，三块固态陆续到手。到手先拍照再跑测试，固态扩容这件事总算告一段落。"
 tags: ["固态硬盘", "三星", "铠侠", "Intel"]
 category: "NAS"

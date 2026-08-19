@@ -1,6 +1,6 @@
 ---
 title: "UHD630 核显都在哪些 CPU 上？认准这个规律就行"
-published: 2026-08-19
+published: 2024-12-17
 description: "UHD630 核显到底出现在哪些 CPU 上？Intel 第 8、9、10 代处理器里都能看到它的身影，而且有个简单规律：后缀带 K 或没有后缀的型号才有核显。选购时认准这一点，基本不会踩坑。"
 tags: ["UHD630", "核显", "Intel", "CPU"]
 category: "技术"

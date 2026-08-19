@@ -1,6 +1,6 @@
 ---
 title: "R730xd 卡开机界面？一个 CTRL+S 就救回来了"
-published: 2026-08-19
+published: 2025-01-19
 description: "R730xd 开机直接卡死在界面，折腾半天居然被一个快捷键救了？再分享 U 盘启动的正确姿势：开机按 F11 进启动菜单，选 One-shot BIOS Boot Menu，U 盘装系统再也不用拆机。"
 tags: ["服务器", "R730xd", "戴尔"]
 category: "技术"

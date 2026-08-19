@@ -1,6 +1,6 @@
 ---
 title: "150 元主板攒的 All-in-One NAS：我的 PVE 全家桶配置单"
-published: 2026-08-19
+published: 2024-12-21
 description: "一台 NAS 能装几个系统？我的答案是 PVE + TrueNAS + WinServer + Debian 四合一。150 元华擎 Z370 Pro4、i3-8100、四块 HC550 组 RAID5，从核显拆分到 PCIe 拆分，完整硬件清单和踩坑记录都在这里。"
 tags: ["NAS", "All-in-One", "PVE", "TrueNAS", "硬件"]
 category: "NAS"

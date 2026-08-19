@@ -1,6 +1,6 @@
 ---
 title: "8 个原生 SATA 的 ITX 神板：永擎 C236 WSI 万兆 NAS 折腾记"
-published: 2026-08-19
+published: 2024-12-17
 description: "被翼王视频种草万兆 NAS 后，我也配了一套 E3-1235L v5 + 永擎 C236 WSI。ITX 板子塞下 8 个原生 SATA、双网口、PCIe x16，配 8 盘位机箱和 SAS 背板，一路装下来全是知识点：反向 SAS 线、1U 电源、ECC 内存，坑和答案都在这里。"
 tags: ["NAS", "C236", "ITX", "万兆", "E3"]
 category: "NAS"

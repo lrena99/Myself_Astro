@@ -1,6 +1,6 @@
 ---
 title: "在 Debian 12 上硬装 PVE：我替你试了，Ubuntu 不行"
-published: 2026-08-19
+published: 2025-01-21
 description: "不想重装系统，想直接在 Debian 12 上把 PVE 装出来？这份踩坑全记录拿走：加源、装内核、删旧内核、桥接网卡，一步不落。记住一句话：我替你试了，Ubuntu 不行。"
 tags: ["PVE", "Debian", "虚拟化"]
 category: "技术"

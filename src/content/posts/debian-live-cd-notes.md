@@ -1,6 +1,6 @@
 ---
 title: "一个只有截图的问题记录：Debian Live CD 的教训"
-published: 2026-08-19
+published: 2025-01-19
 description: "翻到一条只有三张截图、没有半个字的笔记——当时用 Debian Live CD 遇到了问题，截图存档后就搁下了。如今回看，细节全忘光了。这篇聊聊：问题记录为什么一定要趁热写文字。"
 tags: ["Debian", "Live CD", "问题记录"]
 category: "随笔"

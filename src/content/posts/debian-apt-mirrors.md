@@ -1,6 +1,6 @@
 ---
 title: "Debian 12 换国内 apt 源：三套配置直接抄"
-published: 2026-08-19
+published: 2025-03-10
 description: "Debian 12 装完第一件事就是换源。整理了三套 /etc/apt/sources.list 配置：个人镜像、科大、清华，bookworm 直接复制即用，apt update 速度起飞，安全更新源也给你配好了。"
 tags: ["Debian", "apt", "镜像源"]
 category: "技术"

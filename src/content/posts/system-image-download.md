@@ -1,6 +1,6 @@
 ---
 title: "Windows 和 Office 官方镜像去哪下？这个渠道我一直在用"
-published: 2026-08-19
+published: 2024-12-20
 description: "想下载干净的 Windows 或 Office 官方镜像，却被各种第三方镜像站劝退？我长期用 MAS 项目整理的官方安装介质页面，一个地址搞定 Windows 和 Office 的官方镜像下载，省心又安全。"
 tags: ["Windows", "Office", "镜像下载", "系统"]
 category: "技术"

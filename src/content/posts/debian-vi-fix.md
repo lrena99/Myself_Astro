@@ -1,6 +1,6 @@
 ---
 title: "Debian 下 vi 方向键失灵？两行配置，30 秒搞定"
-published: 2026-08-19
+published: 2025-03-10
 description: "在 Debian 里用 vi 编辑文件，方向键变成 ABCD、退格键还删不了字？别急着换编辑器，这只是 vi 的兼容模式在作怪。改两行配置就能恢复，亲测有效，附完整操作步骤。"
 tags: ["vi", "Debian", "Linux"]
 category: "技术"

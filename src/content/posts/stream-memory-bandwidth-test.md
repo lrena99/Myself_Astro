@@ -1,6 +1,6 @@
 ---
 title: "给内存带宽测个速：STREAM 单核/多核测试一条龙"
-published: 2026-08-19
+published: 2025-01-31
 description: "内存带宽到底够不够？别猜，跑一遍 STREAM 就知道了。下载源码、两条 gcc 命令分别编译出单核和多核版本、执行看结果，全程五分钟。附完整命令，拿去就能用。"
 tags: ["STREAM", "内存带宽", "性能测试"]
 category: "技术"

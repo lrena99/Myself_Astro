@@ -1,6 +1,6 @@
 ---
 title: "被锁的 E3 与漏网的主板：技嘉 X170-Extreme ECC 折腾实录"
-published: 2026-08-19
+published: 2024-12-17
 description: "英特尔把 E3 锁在服务器平台，技嘉却用 X170 打了个擦边球：通吃 6 代酷睿、兼容 DDR4 ECC、还藏了外频解锁芯片。迷彩涂装、创新声卡、双 M.2，实测对比 E3-1235V5 和 i5-6600K，老平台玩 NAS 的另一种答案。"
 tags: ["NAS", "主板", "技嘉", "E3", "ECC"]
 category: "NAS"

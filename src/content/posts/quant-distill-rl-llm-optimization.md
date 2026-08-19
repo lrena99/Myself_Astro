@@ -1,6 +1,6 @@
 ---
 title: "量化 + 蒸馏 + 强化学习：我的 LLM 优化论文研究笔记"
-published: 2026-08-19
+published: 2025-01-31
 description: "DeepSeek-R1 用纯 RL 让模型长出推理能力，但也翻车在可读性上。我基于量化、蒸馏和 RL 的组合框架写了自己的优化方案：GRPO 怎么算奖励、冷启动为什么关键、蒸馏为什么比 RL 划算，全部摊开讲。"
 tags: ["LLM", "强化学习", "知识蒸馏", "量化", "DeepSeek-R1"]
 category: "AI"

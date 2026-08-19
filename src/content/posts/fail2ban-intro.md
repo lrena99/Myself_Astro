@@ -1,6 +1,6 @@
 ---
 title: "SSH 一直被爆破？装个 Fail2Ban 自动拉黑"
-published: 2026-08-19
+published: 2024-12-21
 description: "服务器日志里全是陌生 IP 的登录尝试？Fail2Ban 就是干这个的：盯着系统日志，发现多次登录失败的 IP 直接拉黑。安装、配置 SSH 监控、看封禁效果，三步讲清楚，新手也能照做。"
 tags: ["fail2ban", "安全", "SSH"]
 category: "技术"

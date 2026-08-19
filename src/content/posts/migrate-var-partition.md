@@ -1,6 +1,6 @@
 ---
 title: "把 /var 分区迁到新硬盘：前后两张分区表看懂一切"
-published: 2026-08-19
+published: 2025-01-20
 description: "给服务器迁 /var 分区，笔记里只留下前后两张分区表快照。对比看：/var 从独立分区并回根分区，/tmp、/home 全合并，数据盘全部独立挂载，还多了一个 ZFS 池。"
 tags: ["Linux", "分区", "数据迁移"]
 category: "技术"
