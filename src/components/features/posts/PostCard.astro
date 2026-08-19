@@ -115,6 +115,7 @@ const { remarkPluginFrontmatter } = await render(entry);
 					tags.map((tag) => (
 						<a
 							href={getTagUrl(tag)}
+							data-no-swup
 							class:list={[
 								siteConfig.tagStyle?.useNewStyle
 									? "link-lg transition text-50 text-xs font-medium px-2 py-1 rounded-lg hover:text-[var(--primary)] dark:hover:text-[var(--primary)] active:text-[var(--primary)] dark:active:text-[var(--primary)] group/tag whitespace-nowrap"
