@@ -5,6 +5,7 @@ description: "深度学习课程项目实录：用 TensorFlow/Keras 构建 CNN �
 tags: ["深度学习", "TensorFlow", "CNN", "图像分类", "课程项目"]
 category: "项目"
 draft: false
+image: "/images/covers/cover-07.webp"
 ---
 
 # 交通标志识别：基于CNN的课程项目实现记录

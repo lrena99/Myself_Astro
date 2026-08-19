@@ -5,6 +5,7 @@ description: "Notability 改成订阅制后，想用回买断的 Classic 版？�
 tags: ["Notability", "iPad", "爱思助手"]
 category: "折腾"
 draft: false
+image: "/images/covers/cover-02.webp"
 ---
 
 Notability 从买断制改成订阅制之后，很多老用户都不太适应。我折腾了一晚上，用爱思助手把平板上的 Notability 装回了 Classic（经典买断）版本，全程不用花钱。步骤记在这里，供参考，动手前记得先备份数据。

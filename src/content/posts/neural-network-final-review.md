@@ -5,6 +5,7 @@ description: "一门课的知识点全部浓缩进这篇文章：人工神经网
 tags: ["神经网络", "期末复习", "BP网络", "CNN", "深度学习"]
 category: "学习"
 draft: false
+image: "/images/covers/cover-05.webp"
 ---
 
 # 神经网络期末复习：从BP到CNN的核心考点梳理

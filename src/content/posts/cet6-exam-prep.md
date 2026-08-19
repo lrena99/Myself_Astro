@@ -5,6 +5,7 @@ description: "六级满分710分，听力占35%，直接决定能否过线。这
 tags: ["英语六级", "听力", "翻译", "备考攻略"]
 category: "学习"
 draft: false
+image: "/images/covers/cover-06.webp"
 ---
 
 # 六级速成攻略：听力技巧、翻译方法一次讲透
