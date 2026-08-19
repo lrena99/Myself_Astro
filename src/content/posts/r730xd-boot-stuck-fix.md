@@ -12,12 +12,20 @@ R730xd 这台机器什么都好，就是开机偶尔会卡在启动界面一动�
 
 按下去之后机器就继续往下走了，亲测有效。遇到卡机先别慌着重启，先按这个组合键试试。
 
+![过程记录图](/images/posts/r730xd-boot-stuck-fix/01.webp)
+
 ## U 盘启动：F11 进启动菜单
 
 除了卡机，另一个高频场景是装系统。U 盘插好后，等开机出现提示时**按 F11**，会进入启动选项菜单。
 
+![过程记录图](/images/posts/r730xd-boot-stuck-fix/02.webp)
+
 稍等片刻，菜单里会出现 **One-shot BIOS Boot Menu**（一次性启动菜单），选它。
 
+![过程记录图](/images/posts/r730xd-boot-stuck-fix/03.webp)
+
 进去之后能看到所有备选的启动设备，找到你的 U 盘，点它就直接从 U 盘启动了，全程不用进 BIOS 设置界面，也不用拆机箱。
+
+![过程记录图](/images/posts/r730xd-boot-stuck-fix/04.webp)
 
 记住这两个快捷键，R730xd 的日常维护基本就够用了。

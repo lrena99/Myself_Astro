@@ -79,6 +79,8 @@ apt install proxmox-ve postfix open-iscsi chrony
 
 安装过程中会出现一个弹窗，按 Tab 键选择下面的标记确认即可。完成后试着访问 `https://你的IP:8006`，不出意外就已经能打开 PVE 面板了。
 
+![截图](/images/posts/debian12-install-pve/01.webp)
+
 ### e. 删除旧的 Debian 内核
 
 ```bash

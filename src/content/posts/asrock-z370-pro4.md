@@ -10,6 +10,8 @@ image: "/images/covers/cover-03.webp"
 
 折腾 NAS 绕不开选主板，我最后挑的是华擎 Z370 Pro4，150 块拿下。这块板子支持第八代酷睿（LGA1151），规格在同价位里相当能打，把关键参数和折腾要点整理成文。
 
+![实物照片](/images/posts/asrock-z370-pro4/01.webp)
+
 ## 处理器与供电
 
 - 支持第八代 Intel 酷睿处理器（1151 插槽），数字供电
@@ -29,6 +31,8 @@ image: "/images/covers/cover-03.webp"
 - 2 个超级 M.2 接口（M2_1 / M2_2），支持 2230-2280 规格的 M.2 SATA 与 PCIe Gen3 x4（32Gb/s）模块
 - 注意冲突：M2_1 被 SATA 型 M.2 占用时，SATA_5 关闭；M2_2 被占用时，SATA_0 关闭
 - 支持 Intel 傲腾、NVMe SSD 开机，还支持华擎 U.2 套件
+
+![实物照片](/images/posts/asrock-z370-pro4/02.webp)
 
 ## 扩展插槽
 

@@ -12,11 +12,15 @@ image: "/images/covers/cover-07.webp"
 
 入坑前先看了这个视频：B 站《All In One NAS【开荒（踩坑）指南】》——PVE + Win + TrueNAS + Docker + 远程游戏 + 影音服务器一站式搭建，我的方案基本沿着这条路线走。
 
+![过程记录图](/images/posts/my-nas-all-in-one/01.webp)
+
 ## 硬件清单
 
 ### 主板：华擎 Z370 Pro4（150 元）
 
 支持第八代酷睿（1151 插槽），数字供电，支持 K 系列不锁倍频和 BCLK 全范围超频。内存 4 槽双通道 DDR4，最大 64GB，支持 ECC UDIMM（运行于非 ECC 模式）。存储有 6 个 SATA3 + 2 个超级 M.2（PCIe Gen3 x4），M.2 占用时分别关闭对应 SATA。扩展是 2 x PCIe 3.0 x16 + 3 x PCIe x1 + 1 x PCI，网卡是 Intel I219V 千兆。150 块这个价格，扩展性在 NAS 场景里非常能打。
+
+![实物照片](/images/posts/my-nas-all-in-one/02.webp)
 
 ### CPU：Intel i3-8100
 
@@ -35,6 +39,8 @@ image: "/images/covers/cover-07.webp"
 
 四块 HC550 直通给 TrueNAS 组 RAID5，专门管文件。
 
+![硬盘照片](/images/posts/my-nas-all-in-one/03.webp)
+
 ### 机箱
 
 本地捡的 EATX 大机箱，空间管够。
@@ -48,6 +54,8 @@ UHD 630 通过 gvt-g 拆成两个虚拟显卡，分给不同的虚拟机用—�
 ### 2. PCIe 拆分
 
 把 PCIe 通道拆开，让直通设备各归其位，硬盘阵列卡和万兆网卡才能同时用。
+
+![过程记录图](/images/posts/my-nas-all-in-one/04.webp)
 
 ### 3. PVE 上装三个系统
 

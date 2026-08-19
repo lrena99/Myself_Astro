@@ -10,6 +10,12 @@ image: "/images/covers/cover-04.webp"
 
 2024 年 12 月 23 日到 24 日，我的日立 12T 机械硬盘到手了。
 
+![开箱照](/images/posts/hitachi-12tb/01.webp)
+
 惯例流程走起：拆箱拍照、上机、跑测试，测试截图也一并存了下来。从 23 日下午折腾到 24 日中午，前后两天，这块 12T 大容量盘才算正式入库。
 
+![硬盘照片](/images/posts/hitachi-12tb/02.webp)
+
 大容量机械盘 +1，存储仓库又宽裕了一点。
+
+![实物照片](/images/posts/hitachi-12tb/03.webp)

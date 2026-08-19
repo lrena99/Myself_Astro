@@ -22,6 +22,8 @@ C236 芯片组支持 6-7 代酷睿和 E3 系列，而且有大佬做了魔改 BI
 
 华硕 P10S-WS 是华硕的工作站主板，C236 芯片组，4 根支持纯 ECC 的内存槽，四条 PCIe，双 M.2 接口，8 个 SATA。
 
+![实物照片](/images/posts/asus-p10s-ws-c236-nas-board/01.webp)
+
 关于 PCIe 的走线，有几个点值得记一下：
 
 - 前两根 PCIe 高速直连 CPU，支持 x16 单槽或 x8x8 双槽，主板自动拆分，大概应 CPU 需求，不用进 BIOS 改设置

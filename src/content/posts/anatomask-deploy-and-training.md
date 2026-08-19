@@ -23,6 +23,8 @@ pip install -e .
 pip install torch==2.0.1 simpleitk==2.3.1
 ```
 
+![安装过程记录图](/images/posts/anatomask-deploy-and-training/01.webp)
+
 ## 二、设置 nnUNet 环境变量
 
 nnUNet 靠三个环境变量定位数据，缺一不可。一次性建好目录并写进 `.bashrc`：
@@ -61,6 +63,8 @@ python convert_totalsegmentator.py
 ```
 
 注意转换完的 `dataset.json` 里 `numTraining` 和 `numTest` 要按实际情况改，我这份数据集是 765 训练 / 246 测试。
+
+![数据集转换过程记录图](/images/posts/anatomask-deploy-and-training/02.webp)
 
 ## 四、nnUNet 预处理
 
@@ -114,6 +118,8 @@ def load_anatomask_weights(network, fname, verbose=False):
 
 先用一个极简的 3D U-Net（单编码器单解码器）跑通整个流程：加载真实数据 → 裁剪到 64³ → 归一化 → 前向 → 算损失 → 反向。这一步的目的是确认数据加载、张量形状、损失计算都没问题，模型再小也没关系。当时标签唯一值有 118 个，所以输出通道数设成 118，损失用 `CrossEntropyLoss(ignore_index=-1)`。
 
+![训练过程记录图](/images/posts/anatomask-deploy-and-training/06.webp)
+
 ### 第二步：SimpleUNet3D 正式训练
 
 管线验证通过后，换成完整的 3D U-Net：三层编码器、三层解码器、跳跃连接、BatchNorm、Dropout(0.3)，输出 118 类。配套的数据类 `MedicalDataset3D` 做了几件事：
@@ -130,6 +136,8 @@ def load_anatomask_weights(network, fname, verbose=False):
 - 20 个 epoch，每 5 个 batch 打印一次 loss；
 - 每个 epoch 存最佳模型（`best_model.pth`），每 5 个 epoch 存完整 checkpoint（含优化器、调度器状态和历史）；
 - 训练结束后自动画损失曲线和学习率曲线。
+
+![训练结果图](/images/posts/anatomask-deploy-and-training/05.webp)
 
 ## 复盘：几个值得记住的点
 
