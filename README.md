@@ -367,3 +367,5 @@ Thanks to all contributors for their contributions to this project. If you have 
 ---
 
 ⭐ If you find this project helpful, please consider giving it a star!
+
+> 本地部署已启用：修改后自动同步到 GitHub Pages
