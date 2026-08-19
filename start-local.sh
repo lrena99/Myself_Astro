@@ -13,7 +13,7 @@ BLOG="/opt/data/workspace/blog"
 cd "$BLOG" || exit 1
 
 # 1. dev server
-if ! curl -s -o /dev/null http://127.0.0.1:4321/ 2>/dev/null; then
+if ! pgrep -f "astro dev --host" > /dev/null 2>&1; then
     nohup pnpm dev --host > "$BLOG/dev-server.log" 2>&1 &
     echo "dev server starting (log: $BLOG/dev-server.log)"
 else
