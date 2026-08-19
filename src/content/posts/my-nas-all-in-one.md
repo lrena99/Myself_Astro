@@ -5,6 +5,7 @@ description: "一台 NAS 能装几个系统？我的答案是 PVE + TrueNAS + Wi
 tags: ["NAS", "All-in-One", "PVE", "TrueNAS", "硬件"]
 category: "NAS"
 draft: false
+image: "/images/covers/cover-07.webp"
 ---
 
 ## 参考

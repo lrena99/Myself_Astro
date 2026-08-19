@@ -5,6 +5,7 @@ description: "闲鱼 400 块淘到华硕工作站级 C236 主板：支持 ECC、
 tags: ["NAS", "主板", "闲鱼", "DIY", "ECC"]
 category: "NAS"
 draft: false
+image: "/images/covers/cover-04.webp"
 ---
 
 ## 闲鱼上的一见钟情

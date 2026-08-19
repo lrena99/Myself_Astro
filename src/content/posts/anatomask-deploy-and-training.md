@@ -5,6 +5,7 @@ description: "自监督预训练 + nnUNet 体系的医学分割模型 AnatoMask�
 tags: ["AnatoMask", "医学图像分割", "nnUNet", "STUNet", "PyTorch"]
 category: "AI"
 draft: false
+image: "/images/covers/cover-01.webp"
 ---
 
 # 从零跑通 AnatoMask：部署与训练全记录

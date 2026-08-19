@@ -5,6 +5,7 @@ description: "12 月底又剁手了：日立 12T 大容量机械盘到手。拍�
 tags: ["日立", "12T", "机械硬盘", "NAS"]
 category: "NAS"
 draft: false
+image: "/images/covers/cover-04.webp"
 ---
 
 2024 年 12 月 23 日到 24 日，我的日立 12T 机械硬盘到手了。

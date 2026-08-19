@@ -5,6 +5,7 @@ description: "被翼王视频种草万兆 NAS 后，我也配了一套 E3-1235L 
 tags: ["NAS", "C236", "ITX", "万兆", "E3"]
 category: "NAS"
 draft: false
+image: "/images/covers/cover-02.webp"
 ---
 
 ## 种草

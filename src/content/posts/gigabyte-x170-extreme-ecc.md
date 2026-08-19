@@ -5,6 +5,7 @@ description: "英特尔把 E3 锁在服务器平台，技嘉却用 X170 打了�
 tags: ["NAS", "主板", "技嘉", "E3", "ECC"]
 category: "NAS"
 draft: false
+image: "/images/covers/cover-01.webp"
 ---
 
 ## 背景：被锁的 E3

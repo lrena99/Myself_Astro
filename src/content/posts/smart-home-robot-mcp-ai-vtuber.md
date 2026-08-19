@@ -5,6 +5,7 @@ description: "一条指令关灯、拉窗帘、开投影？我想做的智能家
 tags: ["MCP", "智能家居", "HomeAssistant", "ESPHome", "AI VTuber"]
 category: "项目"
 draft: false
+image: "/images/covers/cover-11.webp"
 ---
 
 # 把 AI 虚拟人装进智能家居

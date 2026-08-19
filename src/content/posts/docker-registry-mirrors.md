@@ -5,6 +5,7 @@ description: "Docker Hub 动不动就拉不动，这些年我攒了一批还能�
 tags: ["Docker", "镜像加速", "容器"]
 category: "技术"
 draft: false
+image: "/images/covers/cover-11.webp"
 ---
 
 Docker Hub 在国内的访问情况大家都懂，镜像拉不动是常态。这些年我攒了一批实测还能用的加速源，按场景分了三类，直接抄。

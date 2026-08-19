@@ -5,6 +5,7 @@ description: "想在本地用 vLLM 跑 32B 量化模型？tensor_parallel 开几
 tags: ["vLLM", "大模型推理", "AWQ", "量化", "调试"]
 category: "折腾"
 draft: false
+image: "/images/covers/cover-05.webp"
 ---
 
 # vLLM 本地推理调试实录

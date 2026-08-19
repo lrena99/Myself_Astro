@@ -5,6 +5,7 @@ description: "R730xd 开机直接卡死在界面，折腾半天居然被一个�
 tags: ["服务器", "R730xd", "戴尔"]
 category: "技术"
 draft: false
+image: "/images/covers/cover-10.webp"
 ---
 
 R730xd 这台机器什么都好，就是开机偶尔会卡在启动界面一动不动，风扇狂转、屏幕停在 BIOS 画面，让人以为它挂掉了。我试了一圈，最后发现解法简单到离谱：**按 CTRL+S**。
