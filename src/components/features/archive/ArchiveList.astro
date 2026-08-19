@@ -83,6 +83,9 @@ function formatTag(tagList: string[]) {
 }
 ---
 
+<!-- debug -->
+<div style="display:none" data-debug={JSON.stringify({ tags, categories, uncategorized })}></div>
+
 <div class="card-base px-8 py-6">
 	{
 		groups.map((group) => (
