@@ -1,6 +1,6 @@
 ---
 // 服务端渲染的归档文章列表（替代 client-only 的 ArchivePanel.svelte）
-// 支持 ?tag= / ?category= / ?uncategorized 筛选
+// 全量渲染所有文章，客户端原生 JS 按 ?tag= / ?category= / ?uncategorized 过滤
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getSortedPostsList } from "@utils/content-utils";
@@ -22,42 +22,15 @@ interface Group {
 	posts: PostLike[];
 }
 
-const params = Astro.url.searchParams;
-const tags = params.getAll("tag");
-const categories = params.getAll("category");
-const uncategorized = params.get("uncategorized");
-
 const allPosts = (await getSortedPostsList()) as PostLike[];
 
-let filteredPosts = allPosts;
-
-if (tags.length > 0) {
-	filteredPosts = filteredPosts.filter(
-		(post) =>
-			Array.isArray(post.data.tags) &&
-			post.data.tags.some((tag) => tags.includes(tag)),
-	);
-}
-
-if (categories.length > 0) {
-	filteredPosts = filteredPosts.filter(
-		(post) => post.data.category && categories.includes(post.data.category),
-	);
-}
-
-if (uncategorized) {
-	filteredPosts = filteredPosts.filter((post) => !post.data.category);
-}
-
-filteredPosts = filteredPosts
+// 按发布时间倒序排序
+const sorted = allPosts
 	.slice()
-	.sort(
-		(a, b) =>
-			b.data.published.getTime() - a.data.published.getTime(),
-	);
+	.sort((a, b) => b.data.published.getTime() - a.data.published.getTime());
 
 const groupedMap: Record<number, PostLike[]> = {};
-for (const post of filteredPosts) {
+for (const post of sorted) {
 	const year = post.data.published.getFullYear();
 	if (!groupedMap[year]) {
 		groupedMap[year] = [];
@@ -83,13 +56,10 @@ function formatTag(tagList: string[]) {
 }
 ---
 
-<!-- debug -->
-<div style="display:none" data-debug={JSON.stringify({ tags, categories, uncategorized })}></div>
-
 <div class="card-base px-8 py-6">
 	{
 		groups.map((group) => (
-			<div>
+			<div data-group-year={group.year}>
 				<div class="flex flex-row w-full items-center h-[3.75rem]">
 					<div
 						class="w-[15%] md:w-[10%] transition text-2xl font-bold text-right text-75"
@@ -117,6 +87,9 @@ function formatTag(tagList: string[]) {
 							href={post.url || url(`/posts/${post.id}/`)}
 							aria-label={post.data.title}
 							class="group btn-plain !block h-10 w-full rounded-lg hover:text-[initial]"
+							data-category={post.data.category ?? ""}
+							data-tags={(post.data.tags ?? []).join(",")}
+							data-group={group.year}
 						>
 							<div
 								class="flex flex-row justify-start items-center h-full"
@@ -154,3 +127,64 @@ function formatTag(tagList: string[]) {
 		))
 	}
 </div>
+
+<script is:inline>
+	// 归档筛选：按 URL 参数 (?tag= / ?category= / ?uncategorized) 过滤文章列表
+	(function () {
+		function applyFilter() {
+			var params = new URLSearchParams(window.location.search);
+			var tags = params.getAll("tag");
+			var categories = params.getAll("category");
+			var uncategorized = params.get("uncategorized");
+			if (!tags.length && !categories.length && !uncategorized) {
+				return;
+			}
+
+			var items = document.querySelectorAll(
+				".card-base [data-category]",
+			);
+			items.forEach(function (a) {
+				var cat = a.getAttribute("data-category") || "";
+				var tgs = (a.getAttribute("data-tags") || "")
+					.split(",")
+					.filter(Boolean);
+				var match = true;
+				if (categories.length) {
+					match = match && categories.indexOf(cat) !== -1;
+				}
+				if (tags.length) {
+					match =
+						match && tgs.some(function (t) { return tags.indexOf(t) !== -1; });
+				}
+				if (uncategorized) {
+					match = match && !cat;
+				}
+				if (!match) {
+					a.style.display = "none";
+				}
+			});
+
+			// 隐藏没有可见文章的年份分组
+			document
+				.querySelectorAll(".card-base [data-group-year]")
+				.forEach(function (group) {
+					var visible = Array.prototype.filter.call(
+						group.querySelectorAll("a[data-category]"),
+						function (a) {
+							return a.style.display !== "none";
+						},
+					).length;
+					if (visible === 0) {
+						group.style.display = "none";
+					}
+				});
+		}
+
+		document.addEventListener("astro:page-load", applyFilter);
+		if (document.readyState !== "loading") {
+			applyFilter();
+		} else {
+			document.addEventListener("DOMContentLoaded", applyFilter);
+		}
+	})();
+</script>
