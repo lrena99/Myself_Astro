@@ -26,3 +26,6 @@ pnpm-debug.log*
 wall_size.mjs
 make_grid.mjs
 gen_wall.mjs
+
+# local runtime logs
+*.log
