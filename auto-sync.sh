@@ -23,26 +23,29 @@ log "auto-sync started (polling every 30s)"
 while true; do
     sleep 30
 
-    # 有未提交变化（含 untracked 文件）才继续
-    if [ -z "$(git status --porcelain)" ]; then
+    # 有未推送的本地提交（含未提交变更）才继续
+    has_changes=""
+    [ -n "$(git status --porcelain)" ] && has_changes=1
+    unpushed=$(git log origin/main..HEAD --oneline 2>/dev/null | wc -l)
+    if [ -z "$has_changes" ] && [ "$unpushed" = "0" ]; then
         continue
     fi
 
-    # 等文件写稳定（连续两次检查一致才提交，避免半截文件）
-    first_hash=$(git status --porcelain | md5sum)
-    sleep 20
-    second_hash=$(git status --porcelain | md5sum)
-    if [ "$first_hash" != "$second_hash" ]; then
-        log "changes still in flux, waiting..."
-        continue
-    fi
+    # 未提交变更：等文件写稳定（连续两次检查一致才提交，避免半截文件）
+    if [ -n "$has_changes" ]; then
+        first_hash=$(git status --porcelain | md5sum)
+        sleep 20
+        second_hash=$(git status --porcelain | md5sum)
+        if [ "$first_hash" != "$second_hash" ]; then
+            log "changes still in flux, waiting..."
+            continue
+        fi
 
-    git add -A
-    if git diff --cached --quiet; then
-        continue
+        git add -A
+        if ! git diff --cached --quiet; then
+            git commit -m "content: auto-sync $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG" 2>&1
+        fi
     fi
-
-    git commit -m "content: auto-sync $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG" 2>&1
 
     # push 带 3 次重试
     pushed=0
