@@ -25,3 +25,4 @@ pnpm-debug.log*
 # temp
 wall_size.mjs
 make_grid.mjs
+gen_wall.mjs
