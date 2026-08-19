@@ -320,6 +320,9 @@ if (siteConfig.font) {
 	initSwupManager();
 </script>
 
+<!-- 归档列表筛选（全局引入，监听器常驻以兼容 Swup 无刷新切换） -->
+<script is:inline src={import.meta.env.BASE_URL + "js/archive-filter.js"}></script>
+
 <!-- 代码块折叠功能 -->
 <script>
 	import "../scripts/code-collapse.js";

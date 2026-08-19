@@ -1,7 +1,13 @@
 // 归档列表筛选：按 URL 参数 (?tag= / ?category= / ?uncategorized) 过滤文章
-// 兼容 Swup 无刷新导航：astro:page-load 每次页面切换后触发
+// 由 Layout.astro 全局引入：监听器常驻，Swup 无刷新切换后依然生效
 (function () {
+	if (window.__archiveFilterInit) return;
+	window.__archiveFilterInit = true;
+
 	function applyFilter() {
+		var listEl = document.querySelector(".card-base [data-category]");
+		if (!listEl) return; // 当前页面没有归档列表
+
 		var params = new URLSearchParams(window.location.search);
 		var tags = params.getAll("tag");
 		var categories = params.getAll("category");
