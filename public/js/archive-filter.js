@@ -5,56 +5,72 @@
 	window.__archiveFilterInit = true;
 
 	function applyFilter() {
-		var listEl = document.querySelector(".card-base [data-category]");
+		var listEl = document.querySelector("[data-archive-list]");
 		if (!listEl) return; // 当前页面没有归档列表
 
 		var params = new URLSearchParams(window.location.search);
 		var tags = params.getAll("tag");
 		var categories = params.getAll("category");
-		var uncategorized = params.get("uncategorized");
+		var uncategorized = params.get("uncategorized") !== null;
+
+		var items = listEl.querySelectorAll("a[data-category]");
+		var groups = listEl.querySelectorAll("[data-group-year]");
+
+		// 无筛选参数：恢复全量显示（覆盖 Swup 切换后的残留隐藏状态）
 		if (!tags.length && !categories.length && !uncategorized) {
+			items.forEach(function (a) {
+				a.style.display = "";
+			});
+			groups.forEach(function (group) {
+				var count = group.querySelector(".group-count");
+				if (count) {
+					count.textContent = String(
+						group.querySelectorAll("a[data-category]").length,
+					);
+				}
+				group.style.display = "";
+			});
 			return;
 		}
 
-		var items = document.querySelectorAll(".card-base [data-category]");
-		items.forEach(function (a) {
-			var cat = a.getAttribute("data-category") || "";
-			var tgs = (a.getAttribute("data-tags") || "")
-				.split(",")
-				.filter(Boolean);
-			var match = true;
-			if (categories.length) {
-				match = match && categories.indexOf(cat) !== -1;
+		groups.forEach(function (group) {
+			var visible = 0;
+			group.querySelectorAll("a[data-category]").forEach(function (a) {
+				var cat = a.getAttribute("data-category") || "";
+				var tgs = (a.getAttribute("data-tags") || "")
+					.split(",")
+					.filter(Boolean);
+
+				var match = true;
+				if (categories.length) {
+					match = match && categories.indexOf(cat) !== -1;
+				}
+				if (tags.length) {
+					match =
+						match &&
+						tgs.some(function (t) {
+							return tags.indexOf(t) !== -1;
+						});
+				}
+				if (uncategorized) {
+					match = match && !cat;
+				}
+				a.style.display = match ? "" : "none";
+				if (match) visible++;
+			});
+
+			// 更新年份分组的文章计数
+			var count = group.querySelector(".group-count");
+			if (count) {
+				count.textContent = String(visible);
 			}
-			if (tags.length) {
-				match =
-					match &&
-					tgs.some(function (t) {
-						return tags.indexOf(t) !== -1;
-					});
-			}
-			if (uncategorized) {
-				match = match && !cat;
-			}
-			if (!match) {
-				a.style.display = "none";
+			// 隐藏没有可见文章的年份分组
+			if (visible === 0) {
+				group.style.display = "none";
+			} else {
+				group.style.display = "";
 			}
 		});
-
-		// 隐藏没有可见文章的年份分组
-		document
-			.querySelectorAll(".card-base [data-group-year]")
-			.forEach(function (group) {
-				var visible = Array.prototype.filter.call(
-					group.querySelectorAll("a[data-category]"),
-					function (a) {
-						return a.style.display !== "none";
-					},
-				).length;
-				if (visible === 0) {
-					group.style.display = "none";
-				}
-			});
 	}
 
 	// 初次加载 + Swup/astro 页面切换都执行
