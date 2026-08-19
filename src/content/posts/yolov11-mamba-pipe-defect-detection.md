@@ -1,7 +1,7 @@
 ---
 title: "YOLO11-Mamba：让下水道裂缝无处可逃的国产化检测方案"
 published: 2026-08-19
-description: "CNN 感受野有限，Transformer 又太贵，那把 Mamba 塞进 YOLO11 呢？我们团队做了个 YOLO11-Mamba 混合架构，在国产 RK3588 芯片上跑通了下水道缺陷实时检测，单帧推理不到 25ms。细长裂缝、屈曲、接口错位，全都现形。"
+description: "CNN 感受野有限，Transformer 又太贵，那把 Mamba 塞进 YOLO11 呢？我们团队做了个 YOLO11-Mamba 混合架构，在国产 RK3588 上跑通下水道缺陷检测，单帧推理不到 25ms，长裂缝屈曲接口错位现形。"
 tags: ["YOLO11", "Mamba", "边缘计算", "RK3588", "计算机视觉"]
 category: "项目"
 ---

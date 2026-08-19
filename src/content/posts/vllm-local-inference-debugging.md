@@ -1,7 +1,7 @@
 ---
 title: "vLLM 本地推理调试实录：QwQ-32B-AWQ 和 FuseO1 双模型踩坑记"
 published: 2026-08-19
-description: "想在本地用 vLLM 跑 32B 量化模型？tensor_parallel 开几卡、stop_token_ids 为什么是这三个、推理速度怎么测？我把 QwQ-32B-AWQ 和 FuseO1-32B-Preview 两个模型的完整调试脚本记了下来，全程第一视角，顺手算了 TPS。"
+description: "想在本地用 vLLM 跑 32B 量化模型？tensor_parallel 开几卡、stop_token_ids 为什么是这三个、推理速度怎么测？我把 QwQ-32B-AWQ 和 FuseO1 两个模型的完整调试脚本记了下来，全程第一视角。"
 tags: ["vLLM", "大模型推理", "AWQ", "量化", "调试"]
 category: "折腾"
 ---
