@@ -16,10 +16,11 @@
 		if (path.startsWith("http://") || path.startsWith("https://")) {
 			return path;
 		}
+		// 子路径部署：必须拼 BASE_URL（如 /Myself_Astro），否则资源 404
 		if (path.startsWith("/")) {
-			return path;
+			return `${import.meta.env.BASE_URL}${path.slice(1)}`;
 		}
-		return `/${path}`;
+		return `${import.meta.env.BASE_URL}${path}`;
 	}
 </script>
 
