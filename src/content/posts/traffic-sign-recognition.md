@@ -31,6 +31,14 @@ CNN 结构：4 组"卷积（3×3）+最大池化+Dropout(0.3)"，卷积核通道
 
 训练 10 个 epoch，GPU 加速下每个 epoch 约 18 秒。训练准确率从 50.76% 提升到 73.88%，验证准确率峰值 82.5%、最终 76.5%；验证集准确率整体不低于训练集，说明数据增强和 Dropout 有效抑制了过拟合。
 
+训练过程中损失与准确率的变化曲线如下：
+
+![训练曲线：损失与准确率随 epoch 变化](/images/posts/traffic-sign-recognition/01.webp)
+
+训练完成后加载测试集图像进行预测，结果如下：
+
+![预测结果：测试图像及预测类别与概率](/images/posts/traffic-sign-recognition/02.webp)
+
 ## 遇到的问题
 
 运行日志中 matplotlib 反复提示 SimHei 字体缺失，导致图表中文标注乱码（findfont 警告），通过 `plt.rcParams['font.sans-serif']` 指定中文字体回退列表解决。
