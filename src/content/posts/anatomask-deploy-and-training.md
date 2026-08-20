@@ -25,6 +25,8 @@ pip install torch==2.0.1 simpleitk==2.3.1
 
 ![安装过程记录图](/images/posts/anatomask-deploy-and-training/01.webp)
 
+![安装验证输出：PyTorch 版本、CUDA 可用性与 SimpleITK 版本检查](/images/posts/anatomask-deploy-and-training/07.webp)
+
 ## 二、设置 nnUNet 环境变量
 
 nnUNet 靠三个环境变量定位数据，缺一不可。一次性建好目录并写进 `.bashrc`：
@@ -66,6 +68,8 @@ python convert_totalsegmentator.py
 
 ![数据集转换过程记录图](/images/posts/anatomask-deploy-and-training/02.webp)
 
+![数据转换脚本运行输出：病例处理、标签合并与 dataset.json 生成日志](/images/posts/anatomask-deploy-and-training/08.webp)
+
 ## 四、nnUNet 预处理
 
 ```bash
@@ -74,15 +78,29 @@ python convert_totalsegmentator.py
 
 `--verify_dataset_integrity` 会先做数据完整性检查，有问题早暴露，别等训练跑一半才炸。`-d 201` 对应 Dataset201。
 
+![nnUNet 预处理执行输出](/images/posts/anatomask-deploy-and-training/09.webp)
+
+![预处理进度日志](/images/posts/anatomask-deploy-and-training/10.webp)
+
+![预处理完成输出](/images/posts/anatomask-deploy-and-training/11.webp)
+
 ## 五、用 AnatoMask 做预训练
 
 AnatoMask 的自监督预训练是挂在 nnUNet 训练器上的：STUNet 模块位于 `nnunetv2/training/nnUNetTrainer/variants/pretrain/STUNet.py`。直接用 nnUNet 的训练入口启动：
+
+![STUNet 模块与预训练脚本位置](/images/posts/anatomask-deploy-and-training/03.webp)
+
+![预训练代码目录结构](/images/posts/anatomask-deploy-and-training/04.webp)
 
 ```bash
 ./run_nnunet.sh nnUNetv2_train 201 3d_fullres 0 --npz
 ```
 
 `0` 是 fold 号，`--npz` 保存预测结果。预训练结束会得到包含 teacher 权重（预训练模型）的 checkpoint。
+
+![预训练启动输出](/images/posts/anatomask-deploy-and-training/06.webp)
+
+![预训练运行日志](/images/posts/anatomask-deploy-and-training/05.webp)
 
 ## 六、自定义加载预训练权重
 
@@ -118,7 +136,7 @@ def load_anatomask_weights(network, fname, verbose=False):
 
 先用一个极简的 3D U-Net（单编码器单解码器）跑通整个流程：加载真实数据 → 裁剪到 64³ → 归一化 → 前向 → 算损失 → 反向。这一步的目的是确认数据加载、张量形状、损失计算都没问题，模型再小也没关系。当时标签唯一值有 118 个，所以输出通道数设成 118，损失用 `CrossEntropyLoss(ignore_index=-1)`。
 
-![训练过程记录图](/images/posts/anatomask-deploy-and-training/06.webp)
+![冒烟测试训练输出：真实数据加载、张量形状与损失计算日志](/images/posts/anatomask-deploy-and-training/12.webp)
 
 ### 第二步：SimpleUNet3D 正式训练
 
@@ -137,7 +155,7 @@ def load_anatomask_weights(network, fname, verbose=False):
 - 每个 epoch 存最佳模型（`best_model.pth`），每 5 个 epoch 存完整 checkpoint（含优化器、调度器状态和历史）；
 - 训练结束后自动画损失曲线和学习率曲线。
 
-![训练结果图](/images/posts/anatomask-deploy-and-training/05.webp)
+![正式训练输出：逐 epoch 损失、学习率与模型保存日志](/images/posts/anatomask-deploy-and-training/13.webp)
 
 ## 复盘：几个值得记住的点
 
