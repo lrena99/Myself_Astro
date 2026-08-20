@@ -5,7 +5,7 @@ description: "想把几台机器组进一个虚拟局域网？WireGuard 比传�
 tags: ["WireGuard", "VPN", "虚拟局域网", "Docker"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-04.webp"
+image: "/images/covers/cover-16.webp"
 ---
 
 把分散的机器组进同一个虚拟局域网，WireGuard 是我用过最轻快的方案，配置也直白。这篇是我折腾时的完整记录，参考了 gitee 上的 [spoto/wireguard 教程](https://gitee.com/spoto/wireguard)，手动安装和 Docker 两条路线都有。**文中所有 IP、网段、密钥都是示例值，实际部署时以你自己生成的密钥和规划的网段为准。**
@@ -175,6 +175,8 @@ docker pull weejewel/wg-easy
 ```
 
 ## 自建：客户端配置文件示例
+
+![WireGuard 配置截图](/images/posts/wireguard-virtual-lan/01.webp)
 
 我自建时用的客户端配置长这样，`AllowedIPs = 0.0.0.0/0, ::/0` 表示全部流量都走 VPN（全局代理模式）：
 

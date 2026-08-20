@@ -5,7 +5,7 @@ description: "给自建网站和家庭内网服务上 HTTPS 一直嫌麻烦？�
 tags: ["acme.sh", "SSL证书", "HTTPS"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-03.webp"
+image: "/images/covers/cover-15.webp"
 ---
 
 给自建网站、NAS 和家庭内网服务配 TLS 加密这件事，我一直嫌麻烦，拖了很久。这次看了个视频教程，再对照 acme.sh 官方仓库，把免费 HTTPS 证书的事彻底解决了，记录一下。

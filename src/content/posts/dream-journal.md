@@ -5,7 +5,7 @@ description: "连着六天记梦，全是些不讲道理的画面：下雨天食
 tags: ["梦境", "随笔", "日记"]
 category: "随笔"
 draft: false
-image: "/images/covers/cover-01.webp"
+image: "/images/covers/cover-13.webp"
 ---
 
 有一阵子我养成了早上醒来记梦的习惯，断断续续记了六天。现在翻回来，梦境果然不讲道理，但里面全是白天生活的影子。
