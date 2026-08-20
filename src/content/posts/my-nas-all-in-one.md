@@ -63,6 +63,14 @@ UHD 630 通过 gvt-g 拆成两个虚拟显卡，分给不同的虚拟机用—�
 - **WinServer 2025**：当下载机用
 - **Debian 12**：跑各种服务
 
+## 成果
+
+![PVE 节点概览：CPU、内存与存储状态](/images/posts/my-nas-all-in-one/05.webp)
+
+![PVE 节点监控：风扇转速与 CPU 温度](/images/posts/my-nas-all-in-one/06.webp)
+
+![TrueNAS SCALE 仪表盘：系统信息与存储池状态](/images/posts/my-nas-all-in-one/07.webp)
+
 ## 小结
 
 这套 All-in-One 的核心思路就一句话：一块便宜的 Z370 老主板 + 带核显的 i3，用 PVE 把存储（TrueNAS）、下载（WinServer）和服务（Debian）全塞进一台机器。核显拆分和 PCIe 拆分是两个关键步骤，折腾完就是一台能装下全家桶的 NAS。
