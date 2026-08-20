@@ -30,6 +30,8 @@ image: "/images/covers/wall-38.webp"
 - 5 → 遮挡 / 模糊（obsc）
 - 6 → 支管（utits）
 
+![训练数据样本：七类管道缺陷标注示例](/images/posts/yolov11-mamba-pipe-defect-detection/01.webp)
+
 自动化检测的好处很实在：连续检查能在缺陷恶化前实现早期发现，减少停机时间和昂贵维修成本；模型实时识别、即时反馈，帮助企业确保管道处于良好状态，降低环境灾难风险，保证持续服务交付。相比人工检查，这是一条更高效、稳健且经济实惠的路线。
 
 所以我们的方案是：构建一个用计算机视觉识别管道问题的巡检机器人，发现问题时保存数据，形成持续监测闭环。
@@ -44,13 +46,17 @@ image: "/images/covers/wall-38.webp"
 
 这个设计把 Mamba 的线性复杂度长程建模能力首次带进了下水道检测领域，同时躲开了 CNN 感受野有限和 Transformer 计算昂贵的双重缺陷。
 
-![混合主干结构示意图](/images/posts/yolov11-mamba-pipe-defect-detection/01.webp)
-
 ## 国产化机器人巡检系统架构
 
 系统的边缘计算核心是一台内置国产 RK3588 芯片（8nm 制程，集成 6 TOPS NPU）的巡检机器人，搭载 4K 分辨率 MIPI 高清摄像头，沿管道内部自主行进，实现 7×24 小时连续检测。RK3588 内置的 NPU 已打通 ONNX / MindSpore / TensorFlow Lite 等框架，可以直接部署 YOLO11n 轻量化模型，单帧推理延迟小于 25ms（4K 30fps 下），功耗不超过 8W，满足"高清成像 - 实时分析 - 低功耗"三位一体的需求。
 
+![RK3588 NPU 模型部署与量化工具链](/images/posts/yolov11-mamba-pipe-defect-detection/05.webp)
+
+![RK3588 推理运行与性能监控](/images/posts/yolov11-mamba-pipe-defect-detection/06.webp)
+
 推理结果（缺陷类别、置信度、位置、时间戳）通过千兆以太网或 Wi-Fi 6，以 MQTT 协议推送到国产 IoT 云平台，支持国密 SM4 加密传输，保证数据安全合规。现场无需额外网关，所有计算在 RK3588 内部完成，真正实现"边缘智能、云边协同、全国产化"。
+
+![国产 IoT 云平台缺陷数据可视化](/images/posts/yolov11-mamba-pipe-defect-detection/07.webp)
 
 ### 国产化优势总结
 
@@ -58,16 +64,24 @@ image: "/images/covers/wall-38.webp"
 2. **传感器国产化**：MIPI 摄像头采用国产 4K 感光芯片，成本只有国外同规格的 60%；
 3. **操作系统国产化**：机器人运行国产操作系统（OpenEuler / 麒麟系），内核补丁、驱动、推理框架 100% 可审计。
 
-![巡检系统架构示意图](/images/posts/yolov11-mamba-pipe-defect-detection/02.webp)
+![巡检系统架构示意图](/images/posts/yolov11-mamba-pipe-defect-detection/04.webp)
 
 ## 实验结果
 
 从精度 - 召回曲线看，模型在低置信度区间召回率达到 0.76，支管（utits）类召回率表现最优，孔洞（hole）等高置信度检测能力也有提升；混淆矩阵显示模型对屈曲（buckling）、堆积物（debris）的分类准确率较高，接口错位（jntoffs）存在少量误判。
 
+![精度-召回（PR）曲线](/images/posts/yolov11-mamba-pipe-defect-detection/09.webp)
+
+![混淆矩阵](/images/posts/yolov11-mamba-pipe-defect-detection/10.webp)
+
 ![训练结果图](/images/posts/yolov11-mamba-pipe-defect-detection/03.webp)
+
+![训练曲线与 mAP 指标总览](/images/posts/yolov11-mamba-pipe-defect-detection/08.webp)
 
 预测与标签对比验证了模型对各类缺陷的定位准确性，4K 分辨率下单帧推理延迟小于 25ms，mAP50 达到 0.5 以上，满足国产 RK3588 芯片的边缘部署需求。
 
-![训练结果图](/images/posts/yolov11-mamba-pipe-defect-detection/04.webp)
+![验证集标签](/images/posts/yolov11-mamba-pipe-defect-detection/02.webp)
+
+![模型预测结果](/images/posts/yolov11-mamba-pipe-defect-detection/11.webp)
 
 整体来说，YOLO11-Mamba 兼顾了局部纹理提取与长程结构建模，在国产化机器人巡检系统里实现了实时、高效的管道缺陷检测——下水道里的裂缝、屈曲、接口错位，一个都别想逃。
