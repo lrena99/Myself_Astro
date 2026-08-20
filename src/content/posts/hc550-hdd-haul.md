@@ -16,7 +16,17 @@ image: "/images/covers/wall-18.webp"
 
 12 月 13 日到 16 日，我在「补天服务器」店分三批下单 HC550，下单日期分别是 12 月 13 日、14 日和 16 日。到货之后逐块上机测试，测试截图一直留到 12 月 18 日左右才算收尾。
 
-![硬盘照片](/images/posts/hc550-hdd-haul/02.webp)
+![第一单 HC550 16TB 的 CrystalDiskInfo 信息：通电 2.7 万小时，健康状态良好](/images/posts/hc550-hdd-haul/09.webp)
+
+![第一单 HC550 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/10.webp)
+
+![第二单 HC550 的 CrystalDiskInfo 检测](/images/posts/hc550-hdd-haul/11.webp)
+
+![第二单 HC550 的 HD Tune 信息](/images/posts/hc550-hdd-haul/02.webp)
+
+![第三单 HC550 的 CrystalDiskInfo 检测](/images/posts/hc550-hdd-haul/04.webp)
+
+![第三单 HC550 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/05.webp)
 
 ## 惠鑫存储1：再来一单
 
@@ -24,11 +34,17 @@ image: "/images/covers/wall-18.webp"
 
 ![硬盘照片](/images/posts/hc550-hdd-haul/03.webp)
 
+![惠鑫存储1 这单 HC550 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/12.webp)
+
 ## 海康 4T 乱入
 
 除了 HC550，这次还顺带入手了一块海康 4T。12 月 18 日到货，同样拍照、测试、入库，流程一个不落。
 
-![硬盘照片](/images/posts/hc550-hdd-haul/04.webp)
+![海康 4T 硬盘实物照](/images/posts/hc550-hdd-haul/06.webp)
+
+![海康 4T（希捷 ST4000VX015）的 CrystalDiskInfo 检测](/images/posts/hc550-hdd-haul/07.webp)
+
+![海康 4T 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/08.webp)
 
 ## 小结
 
