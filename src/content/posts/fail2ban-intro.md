@@ -58,7 +58,9 @@ systemctl restart fail2ban
 fail2ban-client status sshd
 ```
 
-能看到当前被 ban 的 IP 列表，心里就有底了。想手动放行某个 IP，用 `fail2ban-client set sshd unbanip <IP>` 就行；想翻封禁历史，看 `/var/log/fail2ban.log`。
+能看到当前被 ban 的 IP 列表，心里就有底了。输出里的 `Banned IP list` 会列出每个被拉黑的 IP 和封禁时长，谁在撞你的门一目了然。想手动放行某个 IP，用 `fail2ban-client set sshd unbanip <IP>` 就行；想翻封禁历史，看 `/var/log/fail2ban.log`。想随时知道服务状态，`systemctl status fail2ban` 一眼就能确认。
+
+除了 sshd，Fail2Ban 还能给别的服务看门：邮件服务、Web 服务、FTP，凡是日志里能看出"反复失败"的地方，都可以照葫芦画瓢加一条 jail，套路完全一样。
 
 ## 几个提醒
 
