@@ -10,6 +10,8 @@ image: "/images/covers/wall-01.webp"
 
 给自建网站、NAS 和家庭内网服务配 TLS 加密这件事，我一直嫌麻烦，拖了很久。这次看了个视频教程，再对照 acme.sh 官方仓库，把免费 HTTPS 证书的事彻底解决了，记录一下。
 
+其实一直拖着，不是因为它难，而是因为我脑补它很难：又是装依赖、又是改配置、又是操心续期……结果真上手才发现，一条命令装完，剩下的活它全自己包圆了，简直是"甩手掌柜"级别的省心。
+
 ## 参考的资料
 
 - B 站视频：《三行命令，免费申请 https 加密证书，一次配置，永久生效》，讲的就是 NAS/家庭内网服务配置 TLS 加密、自建网站配置 SSL/TLS 证书的流程：[BV1UNzmYpEZz](https://www.bilibili.com/video/BV1UNzmYpEZz/)
@@ -22,13 +24,22 @@ acme.sh 是一个 ACME 客户端，用来免费申请证书，安装过程一条
 当时的安装日志：
 
 ```
-[2024年 12月 22日 星期日 13:28:27 CST] Installing to /root/.acme.sh
-[2024年 12月 22日 星期日 13:28:27 CST] Installed to /root/.acme.sh/acme.sh
-[2024年 12月 22日 星期日 13:28:28 CST] Installing alias to '/root/.bashrc'
+[2024年 12月 22日 星期日 13:28:27 CST] Installing to ~/.acme.sh
+[2024年 12月 22日 星期日 13:28:27 CST] Installed to ~/.acme.sh/acme.sh
+[2024年 12月 22日 星期日 13:28:28 CST] Installing alias to '~/.bashrc'
 [2024年 12月 22日 星期日 13:28:28 CST] Close and reopen your terminal to start using acme.sh
 [2024年 12月 22日 星期日 13:28:28 CST] Installing cron job
 [2024年 12月 22日 星期日 13:28:28 CST] bash has been found. Changing the shebang to use bash as preferred.
 [2024年 12月 22日 星期日 13:28:29 CST] OK
 ```
 
+别看日志只有几行，每行都挺有讲究：
+
+- `Installing to ~/.acme.sh`：脚本安安静静住进用户目录，不用去动系统目录，以后想卸载也干净利落；
+- `Installing alias`：顺手往 `.bashrc` 里写了个别名，重开终端就能直接敲 `acme.sh`，不用记一长串路径；
+- `Installing cron job`：这是最值钱的一步——cron 定时任务注册成功，证书快到期时它会自动找 CA 续期，这才是"一次配置永久生效"的真正含义；
+- `Changing the shebang`：把脚本的解释器换成 bash，兼容性更稳，免得在某些环境里莫名其妙跑不起来。
+
 装完之后关掉终端重开，`acme.sh` 命令就能用了。后续就是按官方文档申请证书、把证书安装到自己的服务里，因为 cron 任务已经就位，后面基本不用再管它。
+
+回头看，这个"拖了很久"的任务，从安装到能用其实就几分钟。所以说，有些事还是别靠脑补，上手跑一遍才知道原来这么简单。
