@@ -32,7 +32,7 @@ image: "/images/covers/wall-06.webp"
 
 先算一笔账：听力满分 248.5 分，正好占 710 分的 35%，这个比重在四六级所有模块里是最高的。听力拿不到及格分 149，别的模块就得拼命往上找补；听力能稳在 149 往上走，过级就稳了一半。这也是为什么我一直强调：听力直接决定了你六级能不能顺利通过。
 
-但讲座也是听力里**时间最长、难度最大、最难得分**的部分。正因为它难，所以六级听力的技巧性反而是所有项目里最低的——技巧救不了听不懂。这也是为什么我一直强调：**备考的重心要放在提升听力功底上**，把内容真正听到、听懂，再辅之以技巧，过级就稳了。
+但讲座也是听力里**时间最长、难度最大、最难得分**的部分。正因为它难，所以六级听力的技巧性反而是所有项目里最低的——技巧救不了听不懂。这也是为什么我一直强调：**备考的重心要放在提升听力功底上**，把内容真正听到、甚至听懂，再辅之以技巧，我相信通过是没问题的！所以备考的重心，一定要放在提升听力功底上。
 
 六级听力最大的特点，是它的出题形式：**只给选项，不给题目**。题目被藏在听力材料里，文章放完，最后才把题目读出来。这种形式加上难度，说实话已经和托福越来越像了：文章难、语速快，最关键的是——文章特别长。很多同学听的时候会有一种感觉：它在那儿一直嘚吧嘚，我根本不知道它在说啥。
 
@@ -56,7 +56,7 @@ image: "/images/covers/wall-06.webp"
 
 一是**前面的内容你记不住了**。六级听力材料太长，一篇文章至少出 3 道题，它考的已经不只是听力，还有记忆力——就算你听懂了，再把题目从头听一遍，等题目读完，前面的文章内容早就忘光了。二是**题目本身也听不懂或者毫无意义**。听力最常见的出题形式就是"What is the passage mainly about"这种，听懂了也等于没听；就算题目有意义，像前面说的，前面的内容你也记不住了。
 
-所以我的铁律是：**文章一结束，答案立刻选出来**。没听到就拉倒，千万不要花时间冥思苦想。果断放弃纠结，马上开始预览下一题的选项。请相信我，不听题目不会影响你的正确率。把听题目的时间省下来，全部花在预读选项上——考场上你唯一的资源就是时间，听力时间只属于预读选项和判断答案，不属于冥思苦想。
+所以我的铁律是：**文章一结束，答案立刻选出来**。没听到就拉倒，千万不要花时间冥思苦想。果断放弃纠结，马上开始预览下一题的选项——预览下一题的时间就是这样挤出来的，别人还在纠结上一题，你已经看下一题了。请相信我，不听题目不会影响你的正确率。把听题目的时间省下来，全部花在预读选项上——考场上你唯一的资源就是时间，听力时间只属于预读选项和判断答案，不属于冥思苦想。
 
 ### 技巧 2：科学预读选项（重点，拿笔记下来）
 
@@ -71,7 +71,7 @@ image: "/images/covers/wall-06.webp"
 > C. They have mixed feelings about finding their natural parents.
 > D. They are fully aware of the expenses involved in the search.
 
-我的标记是这样的：
+拿到这道题，你会怎么下手？我的流程是这样的：A 选项没有否定词，直接找动宾，hold bad feeling 划下；B 里有 not，否定词必须划，再在两个动词 want 和 hurt 里挑重点——动作的主体是 hurt，不是 want，所以划 hurt the feelings；C 还是动宾，have mixed feelings；D 是系表结构，be 动词本身没含义，划表语 aware 和它的搭配 expenses。来，对照一下我的标记：
 
 - A 选项没有否定词，只需要划动宾部分：**hold bad feeling**
 - B 选项有否定词，先划 **not**；再划 **hurt the feelings**。注意，为什么划 hurt 不划 want？因为这句话动作的重点不是 want，动作的主体是 hurt——考场上要有这种辨别能力
@@ -92,7 +92,7 @@ image: "/images/covers/wall-06.webp"
 > C. Many factors influence the accuracy of witness testimony.
 > D. The U.S judicial system has much room for improvement.
 
-按方法标出来应该是：A 划 misled，B 划否定词 rarely 和动宾 make correct identification，C 划 influence the accuracy（后面的 of witness testimony 是修饰，先不管），D 划 has much room。标完是这个效果：
+拆开看就是这样：A 的 misled 是动词，直接划；B 的 rarely 是否定词，correct identification 是动宾，一起划；C 的 influence the accuracy 是动宾，后面的 of witness testimony 是介词短语修饰，先不管；D 的 has much room 是动宾。标完是这个效果：
 
 > A. Eyewitnesses are often **misled** by the lawyer's questions.
 > B. Frightened victims can **rarely** make **correct identification**.
@@ -134,7 +134,7 @@ image: "/images/covers/wall-06.webp"
 
 原文是：Most adoptees（被收养人）have mixed feelings about finding their biological parents.
 
-这道题里，mixed feelings 是完完全全的视听一致；而 biological 和 natural 是同义替换。答案 C 就靠这两个点锁定。从这道题能看出三个规律：第一，视听一致的题目选项一般特别长、信息特别多，所以预读选项极其关键；第二，稍微有点难度的视听一致题，只在关键信息处给你提示，其他部分一概不提；第三，**视听一致+同义替换组合考察，是目前六级最最常见的题型**，占到题目至少一半以上，它有一定难度但不会太难，能筛掉一批人，又给有实力的人留了活路，所以出题人就爱出这样的题。你自己做题的时候应该也已经有这个感觉了——想过六级听力，这种组合题必须攻克。
+这道题里，mixed feelings 是完完全全的视听一致；而 biological 和 natural 是同义替换。答案 C 就靠这两个点锁定。从这道题能看出三个规律：第一，视听一致的题目选项一般特别长、信息特别多，所以预读选项极其关键；第二，稍微有点难度的视听一致题，只在关键信息处给你提示，其他部分一概不提；第三，**视听一致+同义替换组合考察，是目前六级最最常见的题型**，占到题目至少一半以上，它有一定难度但不会太难，能筛掉一批人，又给有实力的人留了活路，所以出题人就爱出这样的题。你自己做题的时候应该也已经有这个感觉了——想过六级听力，这种组合题必须攻克。攻克它的思路也不难：预读选项时把标记做扎实，听的时候视听一致抓原词、同义替换抓意思，两套功夫合起来用。
 
 但视听一致最难的形态，长这样（这道题当年正确率只有 15%，有 70% 的同学选了 C，答案基本就在 A 和 C 之间纠结）：
 
@@ -199,11 +199,13 @@ image: "/images/covers/wall-06.webp"
 
 具体怎么提升呢？很多同学心里没底，我把它拆成一套五步训练法，每一步都很朴素，但每一步都算数：
 
-1. **完整听音频 1~2 遍，理解大意。** 注意！不要看原文。
+1. **完整听音频 1~2 遍，理解大意。** 注意！不要看原文。第一遍听完，心里大概知道材料在讲什么就够了，细节先不强求。
 2. **逐句听写。** 每一句停顿，每句听 5 遍左右（最多不要超过 10 遍），听不懂的地方在纸上留出空白。刚开始练习时，纸上可能有大片大片的白，千万别灰心，稳住，这是每个人都要经历的阶段。注意！依然不要看原文。
 3. **对照原文，补充没听出来的内容，理解、吃透文本。**
 4. **跟读音频，掌握单词发音、语音现象和语调。** 比如连读规则、略音规则、爆破音等等。这些规则学好了，口语也会跟着上一个台阶——听说不分家，就是这么个道理。
 5. **裸听听懂，试着复述或翻译。** 到这个阶段，材料才真正变成了你自己的。
+
+整套方法里反复强调“不要看原文”，这是灵魂——一看原文，听写就变成了抄写，耳朵永远练不出来。宁可纸上留白，也不能偷看答案。
 
 这五步没有功利可言，也没有技巧可耍，有的只是脚踏实地。但也正是这份脚踏实地，才是你听力分数的真正靠山。
 
@@ -219,7 +221,7 @@ image: "/images/covers/wall-06.webp"
 
 我帮你把它的骨架拆出来，方便你理解着背：开头 With the development of society and economy 是万能开头，直接交代时代背景；However 一转，抛出"重物质轻精神"的社会现象；As a matter of fact 和 From my perspective 亮出你的观点（灵魂之美才是根本之美）；In order to justify... 引出雷锋的例子，这是现成的论证素材，背下来就能用；As a consequence 收束例子。第二段 After what we have discussed above 总结全文，To begin with 让媒体宣传（这是"媒体责任"），In addition 落到大学生自己（这是"个人行动"），最后 Only in this way 倒装句升华收尾。
 
-具体到句子层面：第一句 With the development... 是时代背景句，任何"社会发展"类话题都能用；However 转折句点出问题（比如重物质轻精神）；Apparently 和 As a matter of fact 是态度句，直接表明作者立场；From my perspective 之后是观点展开句，把主题词（beauty of the soul）和你自己的定义连起来；In order to justify... 是引出例子句，后面接一个名人事迹（雷锋：devoted his whole life to help others）；As a consequence 是例子收束句，把例子拉回主题。第二段 After what we have discussed above 是万能总结开头；To begin with 接"媒体要宣传"；In addition 接"大学生要行动"；Only in this way 倒装句升华，画上句号。整篇没有一个多余的句子，全是套路。这个骨架可以套用到任何"某品质很重要"的话题，把 beauty of the soul 换成题目主题词就行。
+具体到句子层面：第一句 With the development... 是时代背景句，任何"社会发展"类话题都能用；However 转折句点出问题（比如重物质轻精神）；Apparently 和 As a matter of fact 是态度句，直接表明作者立场；From my perspective 之后是观点展开句，把主题词（beauty of the soul）和你自己的定义连起来；In order to justify... 是引出例子句，后面接一个名人事迹（雷锋：devoted his whole life to help others）；As a consequence 是例子收束句，把例子拉回主题。第二段 After what we have discussed above 是万能总结开头；To begin with 接"媒体要宣传"；In addition 接"大学生要行动"；Only in this way 倒装句升华，画上句号。整篇没有一个多余的句子，全是套路。这个骨架可以套用到任何“某品质很重要”的话题，把 beauty of the soul 换成题目主题词就行。比如题目考“诚信”，就把 beauty of the soul 换成 honesty，雷锋的例子换成你准备好的诚信人物；考“勤奋”就换成 diligence。开头 With the development of society and economy 完全不用动，第二段的媒体、大学生、倒装收尾也原样保留。
 
 **第二套：主题型万能模板。** 结构是：引出话题（万能开头句）→ 从两方面展开（正面意义+反面需求）→ 举例支撑（爱因斯坦就是经典素材）→ 总结升华（政府+学校怎么做）。这套模板适合"创新""奋斗""学习"等一切抽象主题。原文长这样：
 
@@ -231,7 +233,7 @@ image: "/images/covers/wall-06.webp"
 
 同样拆一下骨架：第一段 In a rapidly developing society 万能开头，紧接着给主题词下定义（创新是核心竞争力，引发关注）；第二段 As regards to... my discussion is mainly twofold 总起"从两方面谈"，On the one hand 写就业竞争激烈、自我创新是"not a choice, but a must"，On the other hand 写创新精神既积累知识又推动科技，然后 For example 上爱因斯坦——荣誉、相对论、创新精神，三连素材直接加分；第三段 To sum up 总结，Specifically 落到政府提高意识，Meanwhile 落到学校推进素质教育。
 
-对应到句子层面：第一段 In a rapidly developing society 开头之后，紧跟着主题词定义句 Innovation... has captured a great deal of public attention，把抽象主题变成可以议论的对象；第二段 As regards to... 总起句点明"从两方面谈"，On the one hand 谈现实需求（就业竞争激烈，自我创新不是选择而是必须），On the other hand 谈精神价值（积累知识+推动科技），For example 引出爱因斯坦，honored for his success in the theory of relativity 是高级分词结构，背下来就是加分点；第三段 To sum up 总结句，Specifically 落到政府（enhance people's awareness），Meanwhile 落到学校（quality-oriented education），政府+学校双主体收尾，格局一下子就大了。
+对应到句子层面：第一段 In a rapidly developing society 开头之后，紧跟着主题词定义句 Innovation... has captured a great deal of public attention，把抽象主题变成可以议论的对象；第二段 As regards to... 总起句点明"从两方面谈"，On the one hand 谈现实需求（就业竞争激烈，自我创新不是选择而是必须），On the other hand 谈精神价值（积累知识+推动科技），For example 引出爱因斯坦，honored for his success in the theory of relativity 是高级分词结构，背下来就是加分点；第三段 To sum up 总结句，Specifically 落到政府（enhance people's awareness），Meanwhile 落到学校（quality-oriented education），政府+学校双主体收尾，格局一下子就大了。题目考“奋斗”就把 innovation 换成 hard work，定义句、两方面的展开、爱因斯坦的例子、政府加学校的措施全部原样套用，只换主题词就行。
 
 两套模板怎么选？我的经验是：题目给的是社会现象、价值观念类的（比如物质与精神、诚信、孝道），用第一套；题目是抽象主题类的（创新、奋斗、学习、坚持），用第二套。换主题的时候记住三个动作：第一段定义句的主题词换成题目给的；中间的例子上成你最熟的（雷锋、爱因斯坦是现成的，能换成身边真实的例子更好）；结尾的措施句保留"媒体/政府+个人/学校"的结构，只换动词短语。背的时候注意三点：一是括号里的替换词要一起背（fierce/stiff 就是防模板痕迹用的）；二是例子句（雷锋、爱因斯坦）可以替换成你自己准备的，但句式结构别动；三是 Only in this way 这种倒装句和 honored for... 这种分词结构是加分点，默写时一个词都不能错。模板的痕迹不可怕，可怕的是你连模板都没有。
 
@@ -247,7 +249,7 @@ image: "/images/covers/wall-06.webp"
 
 ### 1. 修饰后置
 
-这是我最看重的一个技巧，分为三个内容：**介词短语、定语从句、插入语同位语**。重点是前两个，插入语同位语最近几年考得少了，但以防万一还是要讲。以上这三点都是六级翻译中我们一定会遇到的三种句子，大家一定要好好感受。
+这是我最看重的一个技巧，分为三个内容：**介词短语、定语从句、插入语同位语**。重点是前两个，插入语同位语最近几年考得少了，但以防万一还是要讲。以上这三点都是六级翻译中我们一定会遇到的三种句子，大家一定要好好感受。这三种句子，你随便翻几篇历年真题译文，几乎句句都能对上号。
 
 **① 介词短语**
 
@@ -315,6 +317,8 @@ image: "/images/covers/wall-06.webp"
 土豪直接用拼音 Tuhao 就行。佃户是 tenant（大部分同学写不出来，不会就写 farmers，给分），仆人是 servant，不会写就 pass——个别单词实在不会就跳过，会扣一点分，但主要看整体句式，单个别单词不影响大局。欺压的官方答案是 oppress，想不起来就转换思路，欺压就是欺负，用 bully。指，可以用 mean，也可以用 refer to（注意三单）。花钱如流水，说白了就是"花钱没有节制"，spend money without control；实在想不起来，写"花很多很多钱"也酌情给分。炫耀是 show off，品位是 taste。"也就是说"怎么写都对，in other words 或 that is to say 都行。组合起来：
 
 > Tuhao used to mean landlords in the countryside who oppress their tenants and servants, while now it refers to those who spend money without control or those who like to show off their wealth. That is to say, a tuhao owns a lot of money but has no taste.
+
+注意这里出现了三个 who：第一个 who oppress their tenants and servants 修饰地主，后两个 who spend money without control 和 who like to show off their wealth 修饰“人”——一个句子三个定语从句，但每个都各归各的，结构清清楚楚。
 
 再说**非限制性定语从句**，它的运用很广泛，最常用的场景是：**题目里出现"这、该、其"这样的字眼，指代前面说的那件事，就想到用 which。** 看例子：
 
@@ -386,7 +390,7 @@ image: "/images/covers/wall-06.webp"
 
 > For this reason, the government has taken a series of measures to prevent the housing price from raising too fast, including raising interest rates and increasing taxes on real estate etc.
 
-"鉴于这一状况"怎么写都算对，in view of situation、considering this situation 都行，阅卷不较真，重点是后面主句。这里因为有"了"，要用现在完成时；后面的非谓语按主被动处理成 to do 或 doing。
+"鉴于这一状况"怎么写都算对，in view of situation、considering this situation 都行，阅卷不较真，重点是后面主句。这里因为有"了"，要用现在完成时；后面的非谓语按主被动处理成 to do 或 doing。注意 including 后面接的是动名词短语（raising... 和 increasing...），这也是非谓语的一种，把"包括……等"挂在主句后面，不另起炉灶。
 
 最后一个稍微难一点：
 
@@ -402,7 +406,7 @@ image: "/images/covers/wall-06.webp"
 
 无主句就是没有主语的句子，在汉语里特别常见。想想那首《寻隐者不遇》：松下问童子——谁问？言师采药去——谁说？只在此山中——谁在？云深不知处——谁不知？每一句都没有主语，但中国人读起来毫无障碍，这就是中文。
 
-英语就不行了：**句子中必须要有主语**。所以我们的处理方式一般是——**变被动**，这也是我最推荐的方式。非人主语的情况我后面单独说。记住这个规律：拿到一个句子发现不好翻，通常就是缺主语，第一反应就是被动句。
+英语就不行了：**句子中必须要有主语**。所以我们的处理方式一般是——**变被动**，这也是我最推荐的方式。非人主语的情况我后面单独说。记住这个规律：拿到一个句子发现不好翻，通常就是缺主语，第一反应就是被动句。为什么最推荐变被动？因为被动句既不用纠结主语是谁，又符合英语的表达习惯，还天然规避了主谓一致的语法错误。
 
 看例子：
 
@@ -420,7 +424,7 @@ image: "/images/covers/wall-06.webp"
 
 > Another 85 billion yuan will be used to build or upgrade the facilities for treatment of urban garbage and sewage and additional 30 billion yuan will be invested in forestation in the next three years.
 
-一般现在时和将来时都没问题。
+一般现在时和将来时都没问题。注意这里的主语是"850 亿元"和"300 亿元"，都是非人主语，用被动句做谓语，完全符合英语习惯。
 
 另外还有一类特殊的情况——**非人主语**：当主语不是人，且句子中出现"有、存在"这样的字眼，就用 there be 句式。比如：
 
@@ -433,6 +437,8 @@ image: "/images/covers/wall-06.webp"
 > 中国地方戏种类很多，其中京剧（Peking Opera）是一个具有代表性的剧种。
 
 > There are many kinds of local operas in China, one of which is Peking Opera, a representative one.
+
+one of which 是非限定定语从句的经典用法，把“其中京剧……”处理得干净利落。
 
 以上就是六级翻译的三大必备技巧：修饰后置、多动句、无主句。翻译题所有的句子，基本都逃不出这三个套路。下面进入到第二大部分：六级翻译方法。
 
@@ -467,11 +473,11 @@ image: "/images/covers/wall-06.webp"
 
 顺便积累一波替换词：艳丽用 beautiful 就行；高雅是 elegant 或 graceful，还有个 gorgeous 也有高雅的意味；象征 symbolize 不会写，用 represents、means 都算对；繁荣除了 prosperity，还能用 booming。
 
-**第三步：把主干和修饰组合，检查改正。** 最常见的错误是谓语动词单复数、谓语动词唯一性、从句问题——每一个错误都要扣很多分。所以做完建议检查一遍，最好是平时在练习时就可以不犯错误。另外，时态也是一大扣分点：**出现"已、了"这样的字眼，要用完成时。**
+**第三步：把主干和修饰组合，检查改正。** 最常见的错误是谓语动词单复数、谓语动词唯一性、从句问题——每一个错误都要扣很多分。所以做完建议检查一遍，最好是平时在练习时就可以不犯错误。另外，时态也是一大扣分点：**出现“已、了”这样的字眼，要用完成时。**做完翻译，回读一遍自己的译文，把单复数、谓语唯一性、时态这三个最容易扣分的点逐一过一遍，能救回不少分。
 
 ## 七、真题实战：2019 年 12 月荷花篇
 
-理论说一百遍，不如实战一遍。拿 2019 年 12 月的真题开刀，每个句子我都给 2~3 种表达，帮你把思路打开。
+理论说一百遍，不如实战一遍。拿 2019 年 12 月的真题开刀，每个句子我都给 2~3 种表达，帮你把思路打开。这套真题特别适合检验三大翻译技巧：修饰后置（定语的放置）、多动句（非谓语的处理）、无主句（被动和 there be），几乎每个句子都能对上号。
 
 全篇原文是：荷花（lotus）是中国的名花之一，深受人们喜爱。中国许多地方的湖泊和池塘都适宜荷花生长。荷花色彩鲜艳，夏日清晨绽放，夜晚闭合，花期长达两三个月，吸引来自各地的游客前往观赏。荷花具有多种功能，既能绿化水面，又能美化庭院，还可以净化水质、减少污染、改善环境。荷花迎骄阳而不惧，出淤泥而不染，象征纯洁、高雅，常来比喻人的高尚品德，历来是诗人画家创作的重要题材。荷花盛开的地方也是许多摄影爱好者经常光顾之地。
 
@@ -481,6 +487,8 @@ image: "/images/covers/wall-06.webp"
 
 > The lotus which people love deeply is one of best-known flowers in China.
 > The lotus is one of the famous flowers in China, which is deeply loved by people.
+
+两个版本一个用 which 从句修饰主语，一个用非限定从句放句尾，都算对——这就是修饰后置的两种常见落点。
 
 **中国许多地方的湖泊和池塘都适宜荷花生长。**
 
@@ -519,7 +527,7 @@ can not only... but also... 把四个功能一网打尽，别自己再造新句�
 
 六级这座山，听力是最大的坎，但它也是最值得投入的坎：技巧帮你把每一分都榨出来，功底帮你把分数上限抬上去。应试技巧就那么多，背熟、练熟、用熟；剩下的时间，老老实实按五步法磨听力，按三步法练翻译，把两套作文模板背到能默写。对了，别忘了翻译的"先求稳，再去秀"——考场上宁可写得简单，也别冒险写错，简单能拿分，写错一分没有。
 
-有人问我考前最后几天到底该干嘛？我的排序是：听力用五步法磨 2~3 篇真题，翻译把修饰后置、多动句、无主句各练 5 句，作文两套模板各默写三遍。按这个顺序来，考前心里就有底了。
+有人问我考前最后几天到底该干嘛？我的排序是：听力用五步法磨 2~3 篇真题，翻译把修饰后置、多动句、无主句各练 5 句，作文两套模板各默写三遍。按这个顺序来，考前心里就有底了。最后再背一遍那个公式：听力高分等于听力真实力加听力应试技巧——技巧是杠杆，功底是本金，先把本金攒够，再谈杠杆。
 
 等上了考场你会发现：它嘚吧嘚它的，你写你的，稳稳的。
 
