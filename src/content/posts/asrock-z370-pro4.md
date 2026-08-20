@@ -8,7 +8,7 @@ draft: false
 image: "/images/covers/wall-04.webp"
 ---
 
-折腾 NAS 绕不开选主板，我最后挑的是华擎 Z370 Pro4，150 块拿下。这块板子支持第八代酷睿（LGA1151），规格在同价位里相当能打，把关键参数和折腾要点整理成文。
+折腾 NAS 绕不开选主板，我最后挑的是华擎 Z370 Pro4，150 块拿下。这块板子支持第八代酷睿（LGA1151），规格在同价位里相当能打，把关键参数和折腾要点整理成文，给同样想捡漏 Z370 老平台的 NAS 党当个参考。
 
 ![实物照片](/images/posts/asrock-z370-pro4/01.webp)
 
@@ -17,37 +17,53 @@ image: "/images/covers/wall-04.webp"
 - 支持第八代 Intel 酷睿处理器（1151 插槽），数字供电
 - 支持 Intel Turbo Boost 2.0，也支持 K 系列不锁倍频处理器
 - 支持华擎 BCLK 全范围超频
+- BIOS 是图形化多国语言的 128Mb AMI UEFI，符合 ACPI 6.0 兼容唤醒事件，支持 SMBIOS 2.7；DRAM、PCH 1.0V、VCCIO、VCCST、VCCSA、VPPM 这些电压都能进 BIOS 慢慢调——虽然 NAS 不超频，但想折腾的话底子是给足了的
 
 ## 内存：能点亮 ECC 的意外之喜
 
 - 双通道 DDR4，4 根插槽，最大 64GB
 - 支持 DDR4 4266+(OC) 一路往下到 2133，第八代 CPU 最高支持 2666
-- **支持 ECC UDIMM 内存模块（运行于非 ECC 模式）**——NAS 党看到这条会心动一下
-- 支持 XMP 2.0，DIMM 插槽采用 15μ 镀金接针
+- **支持 ECC UDIMM 内存模块（运行于非 ECC 模式）**——NAS 党看到这条会心动一下，等于白捡的彩蛋
+- 支持 XMP 2.0，DIMM 插槽采用 15μ 镀金接针，插拔耐久度更有底气
 
 ## 存储：双 M.2 + 6 SATA
 
-- 6 个 SATA3 6.0Gb/s，支持 RAID 0/1/5/10、NCQ、AHCI 和热插拔
+- 6 个 SATA3 6.0Gb/s，支持 RAID 0/1/5/10（Intel 快速存储技术 15）、NCQ、AHCI 和热插拔
 - 2 个超级 M.2 接口（M2_1 / M2_2），支持 2230-2280 规格的 M.2 SATA 与 PCIe Gen3 x4（32Gb/s）模块
-- 注意冲突：M2_1 被 SATA 型 M.2 占用时，SATA_5 关闭；M2_2 被占用时，SATA_0 关闭
-- 支持 Intel 傲腾、NVMe SSD 开机，还支持华擎 U.2 套件
+- 注意冲突：M2_1 被 SATA 型 M.2 占用时，SATA_5 关闭；M2_2 被占用时，SATA_0 关闭——插盘之前先算好账，不然硬盘"凭空消失"可别怪我没提醒
+- 支持 Intel 傲腾、NVMe SSD 开机，还支持华擎 U.2 套件，老接口也能接上新设备
 
 ![实物照片](/images/posts/asrock-z370-pro4/02.webp)
 
 ## 扩展插槽
 
-- 2 x PCIe 3.0 x16（PCIE2 为 x16 模式，PCIE4 为 x4 模式），支持 AMD Quad CrossFireX
-- 3 x PCIe 3.0 x1，1 x PCI
-- 1 x M.2 Key E 接口（2230 型 WiFi/BT 模块）
-- 坑点：如果 PCIE5 或 PCI 被占用，PCIE4 会降为 x2 模式
+- 2 x PCIe 3.0 x16（PCIE2 为 x16 模式，PCIE4 为 x4 模式），支持 AMD Quad CrossFireX——拿它组双卡有点离谱，但至少说明通道给得足
+- 3 x PCIe 3.0 x1，1 x PCI，PCI 槽还能留给老声卡之类的古董
+- 1 x M.2 Key E 接口（2230 型 WiFi/BT 模块），想无线化也不用占 PCIe x1
+- 坑点：如果 PCIE5 或 PCI 被占用，PCIE4 会降为 x2 模式——插卡前先规划好通道
 
 ## 网络与显示
 
-- Intel I219V 千兆网卡，支持 Wake-On-LAN、PXE
+- Intel I219V 千兆网卡，支持 Wake-On-LAN、PXE，还带防雷击 / 防 ESD 静电和 EEE 802.3az 节能
 - 8 个 USB 3.1 Gen1（1 个 Type-C，2 前置，5 后置）
-- 显示输出：HDMI / DVI-D / D-Sub，支持三屏同时输出
-- UHD 核显的 HWA 编解码覆盖 VP9、HEVC、AVC、MPEG2 等，看片转码够用
-- 7.1 声道 Realtek ALC892，配 ELNA 专业音频电容
+- 显示输出：HDMI / DVI-D / D-Sub，支持三屏同时输出；HDMI 最大 4K x 2K（4096x2160）@30Hz，DVI-D 和 D-Sub 都是 1920x1200@60Hz，还带 HDCP 和 4K Ultra HD 播放支持
+- 核显硬解这块：DirectX 12，HWA 编解码覆盖 VP9 8/10-bit、VP8、HEVC、AVC、MPEG2、JPEG/MJPEG、VC-1，最大共享显存 1024MB——看片转码够用
+- 7.1 声道 Realtek ALC892，配 ELNA 专业音频电容，支持优质蓝光音效和防突波
+
+## 板载接口：NAS 党会喜欢的细节
+
+- 1 x COM 端口接针、1 x TPM 接针、机箱开启警告接针、电源 LED 与扬声器接针
+- 风扇：1 个 CPU 风扇（4 针，最大 1A / 12W）+ 2 个机箱风扇 + 1 个水泵风扇（最高 1.5A / 1.8W），CHA_FAN2 和 CHA_FAN3/W_PUMP 能自动检测 3 针/4 针风扇——NAS 机箱风扇多，这种接口配置很对胃口
+- 供电：24 针 ATX + 8 针 12V
+- 扩展接针：Thunderbolt 接针（5 针）、3 x USB 2.0 针状接头（支持 5 个接口）、1 x USB 3.1 Gen1 接针（2 个接口），都带 ESD 静电防护
+
+## 后背板输出 / 输入接口
+
+- 2 x 天线端口、1 x PS/2 键盘鼠标接口，老键鼠也能直接插
+- D-Sub + DVI-D + HDMI 三显示输出
+- 5 x USB 3.1 Gen1 Type-A + 1 x USB 3.1 Gen1 Type-C（都带 ESD 静电防护）
+- 1 x RJ-45 千兆网口，带动作 / 连接指示灯和速度指示灯
+- HD 音频插孔：线性输入 / 前置 / 麦克风
 
 ## 小结
 

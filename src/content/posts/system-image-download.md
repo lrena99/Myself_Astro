@@ -22,7 +22,7 @@ massgrave.dev/genuine-installation-media
 
 别看只是一个页面，内容其实挺全的。Windows 这边，从 Windows 11、10 到 10/11 LTSC、ARM64、Server，再到 8.1、8、7，甚至 Vista、XP，基本覆盖了全系列；Office 这边，C2R 安装包覆盖 365、2024、2021、2019、2016、2013，老版本的 MSI 批量授权版和 Mac 版也都有。老机器、新机器、苹果电脑，几乎都能在这里找到对应的镜像。
 
-页面自己也写了：所有下载链接都指向原版文件（genuine files only），不用担心被塞私货。
+页面自己也写了：所有下载链接都指向原版文件（genuine files only），不用担心被塞私货。另外还给了两个贴心小提示：下载太慢的话，可以用 FDM 之类的下载管理器提速；链接打不开，就试试 WARP VPN 绕一下。
 
 ## 为什么会有这个页面
 
