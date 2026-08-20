@@ -19,3 +19,11 @@ image: "/images/covers/wall-19.webp"
 大容量机械盘 +1，存储仓库又宽裕了一点。
 
 ![实物照片](/images/posts/hitachi-12tb/03.webp)
+
+![测试截图](/images/posts/hitachi-12tb/04.webp)
+
+![测试截图](/images/posts/hitachi-12tb/05.webp)
+
+![测试截图](/images/posts/hitachi-12tb/06.webp)
+
+![测试截图](/images/posts/hitachi-12tb/07.webp)
