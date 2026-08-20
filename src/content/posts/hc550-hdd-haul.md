@@ -12,6 +12,10 @@ image: "/images/covers/wall-18.webp"
 
 ![开箱照](/images/posts/hc550-hdd-haul/01.webp)
 
+![硬盘标签：西数 HC550 16TB（笔记配图）](/images/posts/hc550-hdd-haul/13.webp)
+
+![另一块 HC550 的标签（笔记配图）](/images/posts/hc550-hdd-haul/14.webp)
+
 ## 补天服务器：连下三单
 
 12 月 13 日，我在「补天服务器」下了第一单；隔天 12 月 14 日补了第二单；12 月 16 日又追了一单。三天之内连下三单，HC550 一块接一块地往家里搬。下单一时爽，等快递的过程心里又痒又慌——毕竟企业盘这东西，谁也不想开箱翻车。
@@ -28,6 +32,8 @@ image: "/images/covers/wall-18.webp"
 
 ![第二单 HC550 的 HD Tune 信息](/images/posts/hc550-hdd-haul/02.webp)
 
+![HD Tune 坏道扫描（笔记配图）](/images/posts/hc550-hdd-haul/17.webp)
+
 ![第三单 HC550 的 CrystalDiskInfo 检测](/images/posts/hc550-hdd-haul/04.webp)
 
 ![第三单 HC550 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/05.webp)
@@ -40,9 +46,13 @@ image: "/images/covers/wall-18.webp"
 
 ![硬盘照片](/images/posts/hc550-hdd-haul/03.webp)
 
+![HC550 实物特写（笔记配图）](/images/posts/hc550-hdd-haul/15.webp)
+
 ![惠鑫存储1 这单 HC550 的 CrystalDiskMark 读写测试](/images/posts/hc550-hdd-haul/12.webp)
 
 ## 海康 4T 乱入
+
+![顺手测了下手头的 SSD（笔记配图）](/images/posts/hc550-hdd-haul/16.webp)
 
 除了 HC550，这次还顺带入手了一块海康 4T，12 月 18 日到货。别看它个头小一号，待遇一点不少：拍照、测试、入库，流程一个不落。检测信息显示这是一块希捷 ST4000VX015，属于监控级定位的盘。监控盘这种定位，天生就是奔着长时间稳定写入去的，挂在机器里慢慢跑，主打一个让人省心。
 

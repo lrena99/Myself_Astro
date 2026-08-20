@@ -18,6 +18,10 @@ Tailscale 是个好东西，但官方中继在国内就是个笑话——ping �
 
 ## 先搞懂这几样东西
 
+先说清楚三者的分工，对比表一目了然：
+
+![三种方案的对比（笔记配图）](/images/posts/headscale-derp-selfhost-guide/02.webp)
+
 ### Tailscale：装个客户端就能用的 WireGuard 组网
 
 Tailscale 是基于 WireGuard 的虚拟组网工具，相比自己手搓 WireGuard，优势非常明显：
@@ -44,6 +48,10 @@ Tailscale 的连接算法很有意思：**所有客户端之间的连接都是�
 
 所以 DERP 既是 NAT 穿透失败时的保底通信方式（角色类似 TURN），也是帮助我们完成打洞升级的旁路信道。
 
+在动手之前，先补一下 STUN、TURN、DERP 这几个概念——搞懂它们，后面排障心里就有底了：
+
+![STUN/TURN/DERP 概念总览（笔记配图）](/images/posts/headscale-derp-selfhost-guide/03.webp)
+
 ### STUN：打洞是怎么实现的
 
 STUN（Session Traversal Utilities for NAT）解决 NAT 穿透问题，主要功能：
@@ -58,6 +66,10 @@ STUN（Session Traversal Utilities for NAT）解决 NAT 穿透问题，主要功
 2. **打洞**：确定各自的公网 IP 和端口后，客户端之间就可以尝试直接建立连接，实现 P2P。
 
 ### 网络拓扑（文字版）
+
+直接看图更直观：
+
+![网络拓扑示意图（笔记配图，IP 为示例地址）](/images/posts/headscale-derp-selfhost-guide/04.webp)
 
 拓扑其实很简单，三层：
 
@@ -399,6 +411,8 @@ derp:
 2. **使用纯 IP 一定要把 derper 建在非 headscale 服务所在的服务器上**，否则大大的问题——这是用一下午踩坑经验换来的
 
 ## 附：Docker 全家桶方案
+
+![headscale + UI + DERP 三件套架构（笔记配图）](/images/posts/headscale-derp-selfhost-guide/05.webp)
 
 后来我又试了 Docker 全家桶部署（headscale + headscale-ui + derper 三件套），思路是：headscale 容器挂载配置和数据目录，UI 用 `ifargle/headscale-webui` 镜像，derper 还是 `ghcr.io/yangchuansheng/derper`。几个要点：
 
