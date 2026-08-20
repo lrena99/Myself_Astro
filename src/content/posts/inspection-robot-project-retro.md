@@ -5,7 +5,7 @@ description: "从 YOLOv5 起步，最后把架构升级成 YOLO11-Mamba，在国
 tags: ["机器人", "YOLO11", "RK3588", "项目复盘", "边缘计算"]
 category: "项目"
 draft: false
-image: "/images/covers/cover-05.webp"
+image: "/images/covers/wall-20.webp"
 ---
 
 # 一年磨一机：管道巡检消缺机器人项目复盘

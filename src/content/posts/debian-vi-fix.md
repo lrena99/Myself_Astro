@@ -5,7 +5,7 @@ description: "在 Debian 里用 vi 编辑文件，方向键变成 ABCD、退格�
 tags: ["vi", "Debian", "Linux"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-09.webp"
+image: "/images/covers/wall-11.webp"
 ---
 
 用 Debian 的时候发现一个很烦人的问题：vi 进入插入模式后，方向键不听话了——按上下左右，屏幕上冒出来的却是 A/B/C/D 这样的字符，退格键也删不掉东西。

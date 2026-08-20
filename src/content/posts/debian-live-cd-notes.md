@@ -5,7 +5,7 @@ description: "翻到一条只有三张截图、没有半个字的笔记——当
 tags: ["Debian", "Live CD", "问题记录"]
 category: "随笔"
 draft: false
-image: "/images/covers/cover-07.webp"
+image: "/images/covers/wall-09.webp"
 ---
 
 整理笔记的时候翻到一条特殊的记录：标题写着"问题"，内容只有三张截图，一个字都没有。

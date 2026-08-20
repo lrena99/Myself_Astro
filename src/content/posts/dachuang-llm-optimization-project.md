@@ -5,7 +5,7 @@ description: "大创立项，目标很朴素：低成本把小模型的推理能
 tags: ["大创", "LLM", "强化学习", "量化", "蒸馏"]
 category: "项目"
 draft: false
-image: "/images/covers/cover-05.webp"
+image: "/images/covers/wall-07.webp"
 ---
 
 # 大创项目：基于量化和蒸馏的强化学习 LLM 模型优化

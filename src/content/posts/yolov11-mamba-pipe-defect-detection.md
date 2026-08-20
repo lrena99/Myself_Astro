@@ -5,7 +5,7 @@ description: "CNN 感受野有限，Transformer 又太贵，那把 Mamba 塞进 
 tags: ["YOLO11", "Mamba", "边缘计算", "RK3588", "计算机视觉"]
 category: "项目"
 draft: false
-image: "/images/covers/cover-07.webp"
+image: "/images/covers/wall-38.webp"
 ---
 
 # YOLO11-Mamba：让下水道裂缝无处可逃

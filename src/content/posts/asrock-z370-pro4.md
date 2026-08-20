@@ -5,7 +5,7 @@ description: "折腾 NAS 第一件事就是选板子。150 块淘来的华擎 Z3
 tags: ["NAS", "主板", "华擎", "Z370", "折腾"]
 category: "NAS"
 draft: false
-image: "/images/covers/cover-03.webp"
+image: "/images/covers/wall-04.webp"
 ---
 
 折腾 NAS 绕不开选主板，我最后挑的是华擎 Z370 Pro4，150 块拿下。这块板子支持第八代酷睿（LGA1151），规格在同价位里相当能打，把关键参数和折腾要点整理成文。

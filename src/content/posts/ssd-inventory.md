@@ -5,7 +5,7 @@ description: "三星 PM883、铠侠 RC20、Intel S4500 240G——2024 年 12 月
 tags: ["固态硬盘", "三星", "铠侠", "Intel"]
 category: "NAS"
 draft: false
-image: "/images/covers/cover-12.webp"
+image: "/images/covers/wall-29.webp"
 ---
 
 2024 年 12 月，我的固态硬盘库存一口气多了三块：三星 PM883、铠侠 RC20 和 Intel S4500 240G。惯例是先拍照留档，再上机跑测试。

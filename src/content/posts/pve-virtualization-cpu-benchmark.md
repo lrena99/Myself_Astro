@@ -5,7 +5,7 @@ description: "总有人说虚拟机性能打折，我用 sysbench 在 Debian 宿
 tags: ["sysbench", "PVE", "虚拟化"]
 category: "折腾"
 draft: false
-image: "/images/covers/cover-08.webp"
+image: "/images/covers/wall-25.webp"
 ---
 
 一直好奇一个问题：同样一台机器，直接跑 Debian 和装在 PVE 虚拟机里跑，CPU 性能到底差多少？与其听别人说，不如自己测一把。

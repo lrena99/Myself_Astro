@@ -5,7 +5,7 @@ description: "服务器日志里全是陌生 IP 的登录尝试？Fail2Ban 就�
 tags: ["fail2ban", "安全", "SSH"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-12.webp"
+image: "/images/covers/wall-15.webp"
 ---
 
 如果你有一台暴露在公网上的 Linux 服务器，大概率在日志里见过一堆陌生 IP 的 SSH 登录尝试。手动一个个拉黑不现实，Fail2Ban 就是专门解决这个问题的。

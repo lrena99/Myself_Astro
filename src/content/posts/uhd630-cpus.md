@@ -5,7 +5,7 @@ description: "UHD630 核显到底出现在哪些 CPU 上？Intel 第 8、9、10 
 tags: ["UHD630", "核显", "Intel", "CPU"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-03.webp"
+image: "/images/covers/wall-33.webp"
 ---
 
 UHD630 是 Intel 处理器内置的核心显卡，在 Intel 第 8、9、10 代处理器上都很常见。最近整理资料时把它的规律捋了一遍，分享出来。

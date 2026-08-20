@@ -5,7 +5,7 @@ description: "给服务器迁 /var 分区，笔记里只留下前后两张分区
 tags: ["Linux", "分区", "数据迁移"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-06.webp"
+image: "/images/covers/wall-21.webp"
 ---
 
 这次给服务器把 /var 分区迁到新硬盘，折腾完发现笔记里只留了前后两张分区表快照，中间的操作步骤没记下来——不过光是这两张表，信息量已经很大了。

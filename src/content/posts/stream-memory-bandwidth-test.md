@@ -5,7 +5,7 @@ description: "内存带宽到底够不够？别猜，跑一遍 STREAM 就知道�
 tags: ["STREAM", "内存带宽", "性能测试"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-01.webp"
+image: "/images/covers/wall-30.webp"
 ---
 
 想知道一台机器的内存带宽有多少，最常用的工具就是 STREAM。它通过大规模数组的读写操作来测内存的实际吞吐，比看参数表靠谱多了。

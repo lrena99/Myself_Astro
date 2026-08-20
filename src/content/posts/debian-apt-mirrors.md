@@ -5,7 +5,7 @@ description: "Debian 12 装完第一件事就是换源。整理了三套 /etc/ap
 tags: ["Debian", "apt", "镜像源"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-06.webp"
+image: "/images/covers/wall-08.webp"
 ---
 
 Debian 装完第一件事永远是换源，不然 `apt update` 能卡到你怀疑人生。我整理了三套亲测可用的 bookworm 源配置，写进 `/etc/apt/sources.list` 就能用。

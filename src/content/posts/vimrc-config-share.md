@@ -5,7 +5,7 @@ description: "一份注释比代码还多的 .vimrc 长啥样？行号、状态�
 tags: ["vim", "vimrc", "编辑器"]
 category: "技术"
 draft: false
-image: "/images/covers/cover-04.webp"
+image: "/images/covers/wall-34.webp"
 ---
 
 这份 `.vimrc` 是我一直在用的配置，放在 `~/.vimrc` 下。从基本环境、界面显示到编码、搜索、缩进、快捷键和新建文件自动模板都有，而且每行都写了注释，新手也能看懂每一句是干嘛的。分享出来，需要的直接抄。

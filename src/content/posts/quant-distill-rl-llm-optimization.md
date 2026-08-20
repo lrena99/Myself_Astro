@@ -5,7 +5,7 @@ description: "DeepSeek-R1 用纯 RL 让模型长出推理能力，但也翻车�
 tags: ["LLM", "强化学习", "知识蒸馏", "量化", "DeepSeek-R1"]
 category: "AI"
 draft: false
-image: "/images/covers/cover-09.webp"
+image: "/images/covers/wall-26.webp"
 ---
 
 # 量化 + 蒸馏 + 强化学习：我的 LLM 优化研究笔记
