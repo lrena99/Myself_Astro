@@ -22,6 +22,18 @@ image: "/images/covers/wall-20.webp"
 
 **1. 算法创新。** 最难啃的是"轻量化模型 vs 高精度检测"这对矛盾。我们通过引入 FRM 分支保留局部纹理特征、OSS 分支建模长程空间依赖，显著提升了昏暗、油污环境下的缺陷识别率——这两种环境正是管道巡检最真实的场景。
 
+![训练批次样本：管道缺陷标注（笔记配图）](/images/posts/inspection-robot-project-retro/01.webp)
+
+![验证集标注效果（笔记配图）](/images/posts/inspection-robot-project-retro/02.webp)
+
+![PR 曲线：精度与召回平衡（笔记配图）](/images/posts/inspection-robot-project-retro/03.webp)
+
+![混淆矩阵：各类别识别情况（笔记配图）](/images/posts/inspection-robot-project-retro/04.webp)
+
+![检测结果示例（笔记配图）](/images/posts/inspection-robot-project-retro/05.webp)
+
+![验证集预测效果（笔记配图）](/images/posts/inspection-robot-project-retro/06.webp)
+
 **2. 国产化适配。** 完成了算法在国产瑞芯微 RK3588 芯片上的部署与加速，打通了 ONNX 到 NPU 的推理链路，实现了"边缘智能 - 云边协同"的全国产化方案。这件事的意义在于验证了国产硬件在工业巡检领域真的能打。
 
 **3. 系统集成。** 机械结构、运动控制、视觉算法的联调是典型的"三个和尚"难题。机器人最终通过了直管、弯管及 T 型管的通过性测试，防护等级达到 IP67，具备了在实际管道环境中作业的能力。

@@ -14,6 +14,8 @@ Tailscale 是个好东西，但官方中继在国内就是个笑话——ping �
 
 先说结论：**自建的核心就两件事——Headscale 控制面 + DERP 中继**。Tailscale 本身用起来很爽，但它的控制服务器（负责认证、密钥管理）是闭源的，而且国内没有官方 DERP 中继节点。不想经过 Tailscale 官方那层审计、又嫌中继卡的人，自建是唯一出路。
 
+![自建 Headscale + DERP 的网络拓扑（笔记配图）](/images/posts/headscale-derp-selfhost-guide/01.webp)
+
 ## 先搞懂这几样东西
 
 ### Tailscale：装个客户端就能用的 WireGuard 组网

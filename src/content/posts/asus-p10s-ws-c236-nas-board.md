@@ -26,6 +26,8 @@ image: "/images/covers/wall-05.webp"
 
 华硕 P10S-WS 是华硕的工作站主板，配置相当大方：C236 芯片组，4 根支持纯 ECC 的内存槽，四条 PCIe，双 M.2 接口，8 个 SATA。接口数量管够，塞满一台小机箱绰绰有余。
 
+![华硕 P10S-WS 主板细节（笔记配图）](/images/posts/asus-p10s-ws-c236-nas-board/02.webp)
+
 关于 PCIe 的走线，有几个点值得记一下，免得以后装设备踩坑：
 
 - 前两根 PCIe 高速直连 CPU，支持 x16 单槽或 x8x8 双槽，主板会自动拆分，大概是应 CPU 的需求来的，不用进 BIOS 改设置

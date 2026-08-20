@@ -26,6 +26,14 @@ image: "/images/covers/wall-03.webp"
 
 这块板子最帅的地方就是 8 个原生 SATA 接口，不需要再扩展，直接用即可；双网口适合做软路由、链路聚合；PCIe x16 可以接各种万兆网卡和扩展卡。用来做 All-in-One 非常强大。
 
+![永擎 C236 WSI 主板实物（笔记配图）](/images/posts/asrock-c236-wsi/01.webp)
+
+![主板接口布局（笔记配图）](/images/posts/asrock-c236-wsi/02.webp)
+
+![8 个原生 SATA 接口特写（笔记配图）](/images/posts/asrock-c236-wsi/03.webp)
+
+![装机完成效果（笔记配图）](/images/posts/asrock-c236-wsi/04.webp)
+
 我买的时候是二手的，大概 1200 元，现在几乎没怎么涨价——这个主板真的太贵了。
 
 ## 其他配置

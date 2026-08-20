@@ -18,6 +18,10 @@ Proxmox Datacenter Manager（PDM）的目标很简单：**给所有单个节点�
 
 更让我意外的是这个项目的技术选型：**完全用 Rust 开发**，从后端 API 服务器到 CLI 工具，再到全新的前端。前端还是基于 Proxmox 自己这几年打磨的小部件工具包做的，公告说在外观、功能、可访问性、速度和兼容性上都比老界面现代。
 
+![PDM 管理界面（官方论坛截图）](/images/posts/proxmox-datacenter-manager-alpha/01.webp)
+
+![PDM 界面细节（官方论坛截图）](/images/posts/proxmox-datacenter-manager-alpha/02.webp)
+
 ## 为什么急着发 Alpha？
 
 官方理由很实在：
