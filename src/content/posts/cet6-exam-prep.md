@@ -14,7 +14,7 @@ image: "/images/covers/wall-06.webp"
 
 如果你是想稳过六级的普通人，那么听力至少要拿到 149 分——这是听力的及格分，也是你给自己划的红线，一分都不能少。
 
-看到这里你可能想问：凭什么说听力这么重要？原因很朴素：超过半数的同学都认为，自己六级没过的主要"罪魁祸首"就是听力。所以咱们今天就先把听力这个"大魔王"从头到脚拆一遍，再把翻译和作文的干货一次讲透。
+看到这里你可能想问：凭什么说听力这么重要？原因很朴素：笔记里做过统计，超过半数的同学都认为，自己六级没过的主要"罪魁祸首"就是听力。所以这个模块需要大家重点去准备。咱们今天就先把听力这个"大魔王"从头到脚拆一遍，再把翻译和作文的干货一次讲透。
 
 整篇笔记分成两大部分：**第一大部分是应试技巧，第二大部分是备考攻略**。技巧负责"救急"，功底负责"保命"，两样都要抓。技巧能帮你把已经有的水平最大化，但真正决定你听力上限的，永远是实打实的功底。我可以负责任地说：这些内容不仅会让你顺利通过六级，还会让你的英语听力上升到一个全新的高度——前提是，你要努力按照我讲的方法去做。鉴于现在很多同学比较着急提分，我就先讲应试技巧吧。
 
@@ -30,11 +30,13 @@ image: "/images/covers/wall-06.webp"
 
 看出来了吗？第三部分的**讲座 lecture 占比高得离谱**：20% 的占比，每题 14.2 分，一道题顶前面两道。换句话说：六级能不能过看听力，听力能不能过看讲座。哪怕你前面长对话、短文听得稀里哗啦，只要讲座部分能稳住，一切都还来得及。也就是说，你前面听得不咋地其实不影响大局，关键是最后这个题型的得分。
 
+先算一笔账：听力满分 248.5 分，正好占 710 分的 35%，这个比重在四六级所有模块里是最高的。听力拿不到及格分 149，别的模块就得拼命往上找补；听力能稳在 149 往上走，过级就稳了一半。这也是为什么我一直强调：听力直接决定了你六级能不能顺利通过。
+
 但讲座也是听力里**时间最长、难度最大、最难得分**的部分。正因为它难，所以六级听力的技巧性反而是所有项目里最低的——技巧救不了听不懂。这也是为什么我一直强调：**备考的重心要放在提升听力功底上**，把内容真正听到、听懂，再辅之以技巧，过级就稳了。
 
 六级听力最大的特点，是它的出题形式：**只给选项，不给题目**。题目被藏在听力材料里，文章放完，最后才把题目读出来。这种形式加上难度，说实话已经和托福越来越像了：文章难、语速快，最关键的是——文章特别长。很多同学听的时候会有一种感觉：它在那儿一直嘚吧嘚，我根本不知道它在说啥。
 
-但反过来想，这种形式也给了我们一个好处：**你不需要完全听懂**。你只需要选对选项、做对题目就够了。事实上，我之前上四六级的课带了很多学员，几乎没有一个人能从头到尾完全听懂六级听力（特别优秀的除外）。既然大家都听不懂，比的就不是"全懂"，而是"谁更会抓重点"。而抓重点，靠的就是下面这些方法。
+但反过来想，这种形式也给了我们一个好处：**你不需要完全听懂**。你只需要选对选项、做对题目就够了。事实上，我之前上四六级的课带了很多学员，几乎没有一个人能从头到尾完全听懂六级听力（特别优秀的除外）。你也不可能完全听懂——这是正常现象，不用焦虑。只要你掌握一定的听力方法和技巧，在有一定的听力能力之后，就可以化难为简，做对题目。既然大家都听不懂，比的就不是"全懂"，而是"谁更会抓重点"。而抓重点，靠的就是下面这些方法。
 
 ## 二、听力应试四技巧
 
@@ -48,13 +50,13 @@ image: "/images/covers/wall-06.webp"
 
 我自己做六级听力，遇到四个选项都读到了的情况，只有两种策略：
 
-**第一，重点关注最后一个读到的内容。** 我分析历年真题发现，四个选项都读到的情况下，**答案落在最后读到的选项上的比例高达 80%**。另外还要注意**重复读到的内容**——如果一个选项被反复读到，那它基本就是正确答案，不用怀疑。
+**第一，重点关注最后一个读到的内容。** 我分析历年真题发现，四个选项都读到的情况下，**答案落在最后读到的选项上的比例高达 80%**——这个规律我统计了很多年真题，屡试不爽。另外还要注意**重复读到的内容**：如果一个选项被反复读到，那它基本就是正确答案，不用怀疑。
 
 **第二，如果还不确定，就只听这一道题的题目。** 注意，是"仅限这一道"。如果你试图每道题都听题目，等着你的会是两个惨痛的结果：
 
 一是**前面的内容你记不住了**。六级听力材料太长，一篇文章至少出 3 道题，它考的已经不只是听力，还有记忆力——就算你听懂了，再把题目从头听一遍，等题目读完，前面的文章内容早就忘光了。二是**题目本身也听不懂或者毫无意义**。听力最常见的出题形式就是"What is the passage mainly about"这种，听懂了也等于没听；就算题目有意义，像前面说的，前面的内容你也记不住了。
 
-所以我的铁律是：**文章一结束，答案立刻选出来**。没听到就拉倒，千万不要花时间冥思苦想。果断放弃纠结，马上开始预览下一题的选项。请相信我，不听题目不会影响你的正确率。把听题目的时间省下来，全部花在预读选项上，这才是聪明人的做法。
+所以我的铁律是：**文章一结束，答案立刻选出来**。没听到就拉倒，千万不要花时间冥思苦想。果断放弃纠结，马上开始预览下一题的选项。请相信我，不听题目不会影响你的正确率。把听题目的时间省下来，全部花在预读选项上——考场上你唯一的资源就是时间，听力时间只属于预读选项和判断答案，不属于冥思苦想。
 
 ### 技巧 2：科学预读选项（重点，拿笔记下来）
 
@@ -76,6 +78,13 @@ image: "/images/covers/wall-06.webp"
 - C 选项还是动宾：**have mixed feelings**
 - D 选项的 be 动词本身没什么含义，所以划 **aware** 和后面的搭配 **expenses**
 
+标完之后，你眼前应该只剩下这些重点，其余部分在考场上可以直接忽略：
+
+> A. They generally **hold bad feeling** towards their birth parents.
+> B. They do **not** want to **hurt the feelings** of their adoptive parents.
+> C. They **have mixed feelings** about finding their natural parents.
+> D. They are fully **aware** of the **expenses** involved in the search.
+
 再来一个练习，检验一下你学会了没有：
 
 > A. Eyewitnesses are often misled by the lawyer's questions.
@@ -83,14 +92,21 @@ image: "/images/covers/wall-06.webp"
 > C. Many factors influence the accuracy of witness testimony.
 > D. The U.S judicial system has much room for improvement.
 
-按方法标出来应该是：A 划 misled，B 划否定词 rarely 和动宾 make correct identification，C 划 influence the accuracy（后面的 of witness testimony 是修饰，先不管），D 划 has much room。你划对了吗？
+按方法标出来应该是：A 划 misled，B 划否定词 rarely 和动宾 make correct identification，C 划 influence the accuracy（后面的 of witness testimony 是修饰，先不管），D 划 has much room。标完是这个效果：
+
+> A. Eyewitnesses are often **misled** by the lawyer's questions.
+> B. Frightened victims can **rarely** make **correct identification**.
+> C. Many factors **influence the accuracy** of witness testimony.
+> D. The U.S judicial system **has much room** for improvement.
+
+你划的跟我一样吗？一样的话，预读选项这一关你就过了。
 
 划的时候还有**四个注意事项**，个个都是血泪教训：
 
 1. **有生词就不要标记。** 不会的单词或短语别勾，勾出来不代表你就认识了，反而会增加你对这个选项的恐惧感，选答案的时候变得不自信。
 2. **选项不好翻就别费力翻译。** 大部分情况下根本没时间翻译选项，而且你会发现翻译半天也翻不对，就算翻对了也记不住。只把我们标记的部分翻译一下即可。
 3. **不要盯着一个选项一直看。** 盯着看会逼你不停地翻译它，而这时候听力里的正确答案已经过去了。听力只放一遍，过去了就再也听不到了，你只能蒙一个。
-4. **听到选项里的单词出现，就说明进入了这道题的范围。** 每篇文章至少 3 道题，很多人不知道听到哪了，其实只要文章里出现了某个选项中的单词（ABCD 哪个都行），就说明这道题的范围到了。
+4. **听到选项里的单词出现，就说明进入了这道题的范围。** 每篇文章至少 3 道题，很多同学会疑惑：我怎么知道文章现在到第几道题了呢？其实只要文章里出现了某个选项中的单词（ABCD 哪个都行），就说明这道题的范围到了。
 
 总结成一句口诀：**先扫否定词，再划动宾和系表，生词不勾、翻译不较真、单个选项不看死。** 预读选项的方法非常重要，考前一定要练熟，它是后面所有技巧的地基。
 
@@ -107,7 +123,7 @@ image: "/images/covers/wall-06.webp"
 
 原文是：Because human speech lacks the stability and permanence of the printed word.
 
-你看，lacks、stability、printed word 全都在原文里原封不动地出现了，一个同义替换都没有——这就是视听一致最简单粗暴的形式，**完全不需要动脑子**。但有意思的是，很多同学偏偏不敢选：因为高中英语的出题套路是"在原文处设陷阱"，大家都被坑怕了，遇到这种"原文原词"的选项反而不敢下手。殊不知四六级因为出题形式本身就很难（跟托福基本一致，不给题目只给选项），出卷人为了保证一定的基础正确率，会专门设置这种**送分题**。就算你全程没听懂，这种题也能做对。所以送分题必须拿到手，一个都不能丢。
+你看，lacks、stability、printed word 全都在原文里原封不动地出现了，一个同义替换都没有——这就是视听一致最简单粗暴的形式，**完全不需要动脑子**。但有意思的是，很多同学偏偏不敢选：因为高中英语的出题套路是"在原文处设陷阱"，大家都被坑怕了，遇到这种"原文原词"的选项反而不敢下手。殊不知四六级因为出题形式本身就很难（跟托福基本一致，不给题目只给选项），出卷人为了保证一定的基础正确率，会专门设置这种**送分题**。上面这道题就是典型的送分题，即使听不懂，你也能做对。所以送分题必须拿到手，一个都不能丢。
 
 当然，视听一致没有这么简单，它是有升级版的：
 
@@ -131,9 +147,11 @@ image: "/images/covers/wall-06.webp"
 
 （大意：保险一般覆盖很多医疗服务，你会拿到一份目的地医生的名单，有的医生甚至会说你的母语；但缺点是，你的钱可能不能马上拿回来。）
 
-答案是 A。为什么这么多人选 C？因为 C 选项从 doctors 开始到结尾，跟原文几乎一字不差，而 A 选项只有 not 和 get back money 在原文中出现。看起来 C 读到的细节多得多，但别忘了我们预读时划的是什么——**动宾部分**。C 选项虽然划出来一长串，但真正的宾语只有 doctors，后面全是 doctors 的定语从句，优先级很低；而 A 选项虽然短，但否定词和动宾部分全部读到了。所以按选项优先级，毫不犹豫选 A。这道题如果你硬要听懂再选，难度非常大；但用我们的原则，轻松拿下。
+答案是 A。为什么这么多人选 C？因为 C 选项从 doctors 开始到结尾，跟原文几乎一字不差，而 A 选项只有 not 和 get back money 在原文中出现。看起来 C 读到的细节多得多。这里的干扰性是非常强的，如果你硬做，把它听懂然后去选，我认为是有一定难度的；但用我们的原则能不能做对呢？答案是肯定的。
 
-记住这个结论：**听到原文里有选项一模一样的单词，先别激动，要确认是不是我们预读时标记的部分；如果标记的部分全部读到了，它的优先级才是最高的。不是谁读到的单词多，谁就是答案。** 至于那种更难的题目，数量很少，属于拉开差距的题目，需要真功夫——听力功底这东西，没有 3~5 个月的辛勤付出根本提不上去，我们要做的就是在能力范围内，做对尽量多的题目。
+还记得我们预读选项时划的是什么吗？——**动宾部分**。C 选项虽然划出来一长串，但真正的宾语只有 doctors，后面全是 doctors 的定语从句，从优先级上来说是不高的；而 A 选项虽然短，但否定词和动宾部分全部读到了。所以根据选项部分的优先级，毫不犹豫选 A。记住：**在听到原文中有选项完全一样的单词时，先不要激动！要确定是否是我们在预读选项时标记的部分；如果标记的部分全部读到了，那么它的优先级就是最高的，并不是简单的"哪个选项读到的多，哪个就是正确选项"。** 至于那种更难的题目，数量很少，属于拉开差距的题目，需要真功夫——听力功底这东西，没有 3~5 个月的辛勤付出根本提不上去，我们要做的就是在能力范围内，做对尽量多的题目。
+
+把视听一致的方法串起来就是三步：第一步预读选项做标记，第二步听的时候盯住标记部分，第三步听到标记全部出现就锁定优先级最高的选项。三步走熟，送分题和主力题型就都拿下了。
 
 ### 技巧 4：同义替换——正确答案原则二
 
@@ -146,7 +164,7 @@ image: "/images/covers/wall-06.webp"
 > C. To find a better job to support herself.
 > D. To sell leather goods for a British company.
 
-正确答案就是把 half a year 替换成 six months。这是 2010 年的真题，属于最简单的那种同义替换，现在的六级基本不考了（四级还经常出现）。
+正确答案就是把 half a year 替换成 six months，这就是最最最简单的同义替换，只要抓住这一组替换，整道题就解出来了，其余选项都是陪跑。这是 2010 年的真题，现在的六级基本不考了（四级还经常出现）。
 
 再看一道真正的硬菜：
 
@@ -159,9 +177,9 @@ image: "/images/covers/wall-06.webp"
 
 （大意：我们应该拒绝刻板印象，因为它们把一群人强行塞进同一个简单模式里，无法解释个体差异，也无法解释群体成员之间广泛的性格差异。）
 
-答案是 D：刻板印象阻止了我们对个体差异的理解。这里 hinder 对应原文的 fail to，perception 对应原文的 account for——你不仅要听懂原文，还要知道原文的哪个词是对选项中哪个词的同义替换，难度非常大。**这种纯同义替换题在六级听力里占到 20%**，比重不小，绝大多数同学碰到这种题基本就是抓瞎。
+答案是 D：刻板印象阻止了我们对个体差异的理解。这里 hinder 对应原文的 fail to，perception 对应原文的 account for——你不仅要听懂原文，还要知道原文的哪个词是对选项中哪个词的同义替换，难度非常非常大。**这种纯同义替换题在六级听力里占到 20%**，比重不小，绝大多数同学碰到这种题基本就是抓瞎。
 
-不过别灰心，六级里最多的还是"视听一致+同义替换"的组合题：一部分原样出现，一部分考替换，也就是说部分是同样出现的，部分是考同义替换的。这种题有难度但没那么吓人，只要你提升听力内功、再学点技巧，正确率一定能上来。而纯同义替换的功底，只能靠平时刻意练习，没有任何捷径。
+不过别灰心。把同义替换的难度排个队：最简单的是 half a year 换 six months 这种单个词替换；中间是视听一致+同义替换的组合题，也就是部分是同样出现的、部分是考同义替换的，这是六级的主力题型，占到一半以上，有难度但没那么吓人，只要你提升听力内功、再学点技巧，正确率一定能上来；最难的是纯同义替换，占 20%，用来拉开差距。平时练听力的时候，听到一个表达就多想一步"它还能怎么说"，内功就是这么一点点练出来的。
 
 ## 三、听力功底五步训练法（备考攻略）
 
@@ -169,7 +187,9 @@ image: "/images/covers/wall-06.webp"
 
 **听力高分 = 听力真实力 + 听力应试技巧**
 
-所说的听力功底、听力内功，就是指这里的"真实力"。六级听力的技巧真的很有限，接下来的日子里，请同学们花一些时间，尽力提升自己的英语听力功底，才能在听力的道路上有所突破。想提升实力，关键盯住三个要素：
+所说的听力功底、听力内功，就是指这里的"真实力"。六级听力的技巧真的很有限，接下来的日子里，请同学们花一些时间，尽力提升自己的英语听力功底，才能在听力的道路上有所突破。这个部分没有功利和技巧的内容，有的只有脚踏实地。
+
+想提升实力，关键盯住三个要素：
 
 **① 词汇量。** 听力词汇和阅读词汇是两码事：阅读词汇你看到认识就行，听力词汇必须耳朵一听到就能反应出意思，反应不过来就等于没背过。所以背单词的时候，一定要跟着音频听发音。
 
@@ -197,7 +217,9 @@ image: "/images/covers/wall-06.webp"
 >
 > After what we have discussed above, we can easily come to the conclusion that effective measures should be taken to advocate and publicize the beauty of the soul. To begin with, it is the responsibility of mass media to publicize its importance. In addition, we, college students, are supposed to cultivate the beauty of the soul. Only in this way can our prospect become better and better.
 
-我帮你把它的骨架拆出来，方便你理解着背：开头 With the development of society and economy 是万能开头，直接交代时代背景；However 一转，抛出"重物质轻精神"的社会现象；As a matter of fact 和 From my perspective 亮出你的观点（灵魂之美才是根本之美）；In order to justify... 引出雷锋的例子，这是现成的论证素材，背下来就能用；As a consequence 收束例子。第二段 After what we have discussed above 总结全文，To begin with 让媒体宣传（这是"媒体责任"），In addition 落到大学生自己（这是"个人行动"），最后 Only in this way 倒装句升华收尾。这个骨架你可以套用到任何"某品质很重要"的话题，把 beauty of the soul 换成题目主题词就行。
+我帮你把它的骨架拆出来，方便你理解着背：开头 With the development of society and economy 是万能开头，直接交代时代背景；However 一转，抛出"重物质轻精神"的社会现象；As a matter of fact 和 From my perspective 亮出你的观点（灵魂之美才是根本之美）；In order to justify... 引出雷锋的例子，这是现成的论证素材，背下来就能用；As a consequence 收束例子。第二段 After what we have discussed above 总结全文，To begin with 让媒体宣传（这是"媒体责任"），In addition 落到大学生自己（这是"个人行动"），最后 Only in this way 倒装句升华收尾。
+
+具体到句子层面：第一句 With the development... 是时代背景句，任何"社会发展"类话题都能用；However 转折句点出问题（比如重物质轻精神）；Apparently 和 As a matter of fact 是态度句，直接表明作者立场；From my perspective 之后是观点展开句，把主题词（beauty of the soul）和你自己的定义连起来；In order to justify... 是引出例子句，后面接一个名人事迹（雷锋：devoted his whole life to help others）；As a consequence 是例子收束句，把例子拉回主题。第二段 After what we have discussed above 是万能总结开头；To begin with 接"媒体要宣传"；In addition 接"大学生要行动"；Only in this way 倒装句升华，画上句号。整篇没有一个多余的句子，全是套路。这个骨架可以套用到任何"某品质很重要"的话题，把 beauty of the soul 换成题目主题词就行。
 
 **第二套：主题型万能模板。** 结构是：引出话题（万能开头句）→ 从两方面展开（正面意义+反面需求）→ 举例支撑（爱因斯坦就是经典素材）→ 总结升华（政府+学校怎么做）。这套模板适合"创新""奋斗""学习"等一切抽象主题。原文长这样：
 
@@ -207,11 +229,15 @@ image: "/images/covers/wall-06.webp"
 >
 > To sum up, it is of great benefit for us to cultivate innovative spirit during college and learn how to create some new inventions. Specifically, the fundamental way in which the government advocates this spirit is to enhance people's awareness. Meanwhile, the school should also join in the efforts in promoting quality-oriented education.
 
-同样拆一下骨架：第一段 In a rapidly developing society 万能开头，紧接着给主题词下定义（创新是核心竞争力，引发关注）；第二段 As regards to... my discussion is mainly twofold 总起"从两方面谈"，On the one hand 写就业竞争激烈、自我创新是"not a choice, but a must"，On the other hand 写创新精神既积累知识又推动科技，然后 For example 上爱因斯坦——荣誉、相对论、创新精神，三连素材直接加分；第三段 To sum up 总结，Specifically 落到政府提高意识，Meanwhile 落到学校推进素质教育。注意里面 fierce (stiff) 这种括号里的替换词，是给你换词防模板痕迹用的，背的时候顺便一起记住。
+同样拆一下骨架：第一段 In a rapidly developing society 万能开头，紧接着给主题词下定义（创新是核心竞争力，引发关注）；第二段 As regards to... my discussion is mainly twofold 总起"从两方面谈"，On the one hand 写就业竞争激烈、自我创新是"not a choice, but a must"，On the other hand 写创新精神既积累知识又推动科技，然后 For example 上爱因斯坦——荣誉、相对论、创新精神，三连素材直接加分；第三段 To sum up 总结，Specifically 落到政府提高意识，Meanwhile 落到学校推进素质教育。
+
+对应到句子层面：第一段 In a rapidly developing society 开头之后，紧跟着主题词定义句 Innovation... has captured a great deal of public attention，把抽象主题变成可以议论的对象；第二段 As regards to... 总起句点明"从两方面谈"，On the one hand 谈现实需求（就业竞争激烈，自我创新不是选择而是必须），On the other hand 谈精神价值（积累知识+推动科技），For example 引出爱因斯坦，honored for his success in the theory of relativity 是高级分词结构，背下来就是加分点；第三段 To sum up 总结句，Specifically 落到政府（enhance people's awareness），Meanwhile 落到学校（quality-oriented education），政府+学校双主体收尾，格局一下子就大了。
+
+两套模板怎么选？我的经验是：题目给的是社会现象、价值观念类的（比如物质与精神、诚信、孝道），用第一套；题目是抽象主题类的（创新、奋斗、学习、坚持），用第二套。换主题的时候记住三个动作：第一段定义句的主题词换成题目给的；中间的例子上成你最熟的（雷锋、爱因斯坦是现成的，能换成身边真实的例子更好）；结尾的措施句保留"媒体/政府+个人/学校"的结构，只换动词短语。背的时候注意三点：一是括号里的替换词要一起背（fierce/stiff 就是防模板痕迹用的）；二是例子句（雷锋、爱因斯坦）可以替换成你自己准备的，但句式结构别动；三是 Only in this way 这种倒装句和 honored for... 这种分词结构是加分点，默写时一个词都不能错。模板的痕迹不可怕，可怕的是你连模板都没有。
 
 ## 五、翻译三大必备技巧
 
-翻译考的是语言的转换能力，所以它一定会挑英语和中文**不一样的地方**考你。中文和英文的三大差异，就是六级翻译的三个必考技巧：
+翻译考的是语言的转换能力，所以它一定会挑英语和中文**不一样的地方**考你。所谓翻译，考察的就是你的语言转换能力，那么一定会着重考察你英语和中文不一样的地方：中文的修饰是前置的，英语的修饰是后置的；英语有且只有一个谓语动词，汉语没有谓语动词和非谓语动词之分；英语中必须要有主语，汉语不一定要有主语。这三大差异，就是六级翻译的三个必考技巧：
 
 - **中文修饰前置，英语修饰后置** → 修饰后置
 - **汉语没有谓语动词和非谓语动词之分，英语一个句子有且只有一个谓语** → 多动句
@@ -221,7 +247,7 @@ image: "/images/covers/wall-06.webp"
 
 ### 1. 修饰后置
 
-这是我最看重的一个技巧，分为三个内容：**介词短语、定语从句、插入语同位语**。重点是前两个，插入语同位语最近几年考得少了，但以防万一还是要讲。所谓翻译，考察的就是你的语言转换能力，它一定会着重考英语和中文不一样的地方：中文的修饰是前置的，英语的修饰是后置的；英语有且只有一个谓语动词，汉语没有谓语和非谓语之分；英语必须有主语，汉语不一定要有主语。下面一个一个来。
+这是我最看重的一个技巧，分为三个内容：**介词短语、定语从句、插入语同位语**。重点是前两个，插入语同位语最近几年考得少了，但以防万一还是要讲。以上这三点都是六级翻译中我们一定会遇到的三种句子，大家一定要好好感受。
 
 **① 介词短语**
 
@@ -231,7 +257,9 @@ image: "/images/covers/wall-06.webp"
 
 > 过中秋节的习俗于唐代早期在中国各地开始流行。（2014.6）
 
-我认为这个句子简直就是六级翻译里最最典型的考察修饰后置的例句了！看到这句话，上来先不要想单词，有的同学开口就在纠结"过"怎么翻。写翻译之前，先解决语序问题。既然修饰后置，那么"过中秋节的"因为有"的"，习俗就要放在它的后面；"于唐代早期"是时间状语，"在中国各地"是地点状语，它俩都修饰动词"开始流行"。所以语序要从原来的 1、2、3、4、5，调成 2、1、5、4、3。**这就是修饰后置：先调语序，再解决单词问题。**
+我认为这个句子简直就是六级翻译里最最典型的考察修饰后置的例句了！写翻译时，看到这句话，上来先不要考虑单词问题——有的同学开口就在纠结"过"怎么翻。你在写翻译之前，应该先考虑语序的问题。既然修饰后置，那么"过中秋节的"因为有"的"，习俗就要放在它的后面；"于唐代早期"是时间状语，"在中国各地"是地点状语，它俩都修饰动词"开始流行"。
+
+把语序编上号你就更清楚了：1 是"过中秋节的"（修饰习俗），2 是"习俗"（主语），3 是"于唐代早期"（时间状语），4 是"在中国各地"（地点状语），5 是"开始流行"（谓语）。中文的正常顺序是 1、2、3、4、5，修饰后置之后就变成了 2、1、5、4、3：先写主语"习俗"，再挂"过中秋节的"，然后写谓语"开始流行"，时间和地点放到后面。**这就是修饰后置：先调语序，再解决单词问题。**
 
 语序搞定了，再去解决单词：
 
@@ -246,7 +274,7 @@ image: "/images/covers/wall-06.webp"
 
 > The tradition of celebrating/spending Mid-Autumn Festival became popular throughout China in the early Tang dynasty.
 
-这里有两个细节提醒：第一，"中国各地"和"唐代早期"谁先谁后无所谓，大学阶段阅卷不抠这种细节；第二，in、on、at 分不清也没关系，你把 in 换成 at 我都不一定看得到，只要别作死把 in 换成 along 就行。**这句话的考点就是语序**，语序对了，小事不刁难你。但语法错误照样扣分，比如写成一般现在时，肯定扣。翻译和作文在这方面很像：语法错误是特别注重的点，练习时一定要严格要求自己，少犯或者不犯语法错误。
+这里有两个细节提醒：第一，"中国各地"和"唐代早期"谁先谁后无所谓，大学阶段阅卷不抠这种细节；第二，in、on、at 分不清也没关系，你把 in 换成 at 我都不一定看得到，只要别作死把 in 换成 along 就行。**这句话的考点就是语序**，语序对了，小事不刁难你。但语法错误照样扣分，比如写成一般现在时，肯定扣。翻译和作文在这方面很像：语法错误都是特别注重的点，练习时一定要严格要求自己，少犯或者不犯语法错误。
 
 顺便说下**专有名词**的处理，这也是很多同学的疑问："老师！这些专有名词都要翻出来吗？我不会怎么办？"答案是：有的题会给注释，有的不给。只要没给注释，就说明这是考察点之一，比如"中秋节"是你初中就学过的词，写不出来就会扣分。但像"港珠澳大桥"这种词，阅卷是非常仁慈的，你怎么写都行，只要大致表达出那个意思；而且你写不出来，别人大概率也写不出来，标准答案很少有同学能写一样。那我们在哪个维度上狠狠扣分？就是修饰后置！因为它完美体现你的英语功底。
 
@@ -254,7 +282,7 @@ image: "/images/covers/wall-06.webp"
 
 > 另一个则是乡村生活的种种乐趣，画有渔夫在湖上打渔，农夫在山上砍柴采药，或是书生坐在松树下吟诗作画。（2014.12）
 
-这个句子看着是不是就挺劝退的？还是一样，先调语序：先写"种种乐趣"，再挂"乡村生活的"；先写"渔夫打渔"，再挂"在湖上"；先写"农夫砍柴采药"，再挂"在山上"；先写"书生吟诗作画"，再挂"在松树下"。语序定完再想单词：
+这个句子看着是不是就挺劝退的？别怕，还是老套路：先调语序，再想单词。先写"种种乐趣"，再挂"乡村生活的"；先写"渔夫打渔"，再挂"在湖上"；先写"农夫砍柴采药"，再挂"在山上"；先写"书生吟诗作画"，再挂"在松树下"。语序定完再想单词：
 
 - 另一个：the other。
 - 种种乐趣：various recreations of rural life，recreations 写不来，写 interests 也没问题。
@@ -270,13 +298,13 @@ image: "/images/covers/wall-06.webp"
 
 **② 定语从句**
 
-定语从句分限定性和非限定性，很多人对它俩的区别还停留在"有没有逗号"上，我们直接看用法。
+定语从句分限定性和非限定性，很多人对它俩的区别还停留在"有没有逗号"上，但六级翻译里，你只要知道什么时候该用就够了。
 
 先说**限定性定语从句**：它和介词短语做后置定语在逻辑上一模一样，只是形式不同。**当修饰部分里出现了动词，就要用定语从句**。比如"坐在第三排的那个同学"，修饰部分"坐在第三排的"里有个动词"坐"，那就得用定语从句。看真题：
 
 > 对于那些月薪较低却渴望在大城市拥有一套属于自己的体面、舒适的栖身之所的人来说，高昂的房价是他们无法承受的负担。
 
-主干是"对那些人来说，高房价是负担"，修饰部分里有"渴望""无法承受"这样的动词作定语，所以用定语从句：
+先把主干抽出来："对那些人来说，高房价是负担"；剩下的"月薪较低却渴望……"和"无法承受的"都是修饰，里面出现了动词（渴望、无法承受），所以必须用定语从句：
 
 > For those people who earn less but eager to own a decent and comfortable place of their own in a big city, the high housing price is a heavy burden that they cannot afford.
 
@@ -288,7 +316,7 @@ image: "/images/covers/wall-06.webp"
 
 > Tuhao used to mean landlords in the countryside who oppress their tenants and servants, while now it refers to those who spend money without control or those who like to show off their wealth. That is to say, a tuhao owns a lot of money but has no taste.
 
-再说**非限制性定语从句**，它最常用的场景是：**题目里出现"这、该、其"这样的字眼，指代前面说的那件事，就想到用 which。** 看例子：
+再说**非限制性定语从句**，它的运用很广泛，最常用的场景是：**题目里出现"这、该、其"这样的字眼，指代前面说的那件事，就想到用 which。** 看例子：
 
 > 大学生之间的竞争也越来越激烈，这导致任何一名大学生找到工作的机会都变小了。
 
@@ -336,7 +364,7 @@ image: "/images/covers/wall-06.webp"
 
 所谓多动句，就是一个句子里出现多个动词，这种类型的句子在近两年的考试中特别特别常见，大家务必要掌握好。汉语里没有谓语动词和非谓语动词之分，英语里却有严格区分：**一个句子有且只有一个谓语动词**。这是英语的铁律，就像家里只能有一个当家的。搞清楚这一点，处理起来就有方向了。
 
-处理多动句有三种方式：连词 and、非谓语动词、其他连词。**我最推荐非谓语动词**——从六级翻译的参考答案就能看出来，绝大多数多动句都是用非谓语来处理的。
+处理多动句有三种方式：连词 and、非谓语动词、其他连词。**我最推荐非谓语动词**——从六级翻译的参考答案就能看出来，绝大多数的多动句都是用非谓语动词的方式来处理的，所以这是你练习时的第一选择。
 
 那么问题来了：拿到一个多动句，怎么判断哪个动词当谓语？教你一个小技巧：**哪个动词离主语最近，哪个就处理成谓语动词，其余全部处理成非谓语。** 这个技巧 95% 以上的情况都适用。处理的时候注意：主动用现在分词 -ing，被动用过去分词 -ed，表目的用不定式 to do。
 
@@ -364,7 +392,7 @@ image: "/images/covers/wall-06.webp"
 
 > 漫步在花园中，人们可以看到一系列精心设计的景观犹如山水画卷一般展现在面前。（2013.12）
 
-难点有二：一是这里的非谓语是**作状语**（非谓语作定语和作状语的区别在于有没有逗号隔开），二是词汇。漫步是 wander，写 walk 也没问题；精心设计是 well-designed；"犹如山水画卷"就写"像画一样"——like paintings；展现用 show 或 emerge 都行：
+难点有二：一是这里的非谓语是**作状语**（非谓语作定语和作状语的区别在于有没有逗号隔开），二是词汇——漫步、精心设计、犹如山水画卷，都是同学们眼里的拦路虎。漫步是 wander，写 walk 也没问题；精心设计是 well-designed；"犹如山水画卷"就写"像画一样"——like paintings；展现用 show 或 emerge 都行：
 
 > Wandering in the garden, people can see that a series of well-designed views emerge just like a painting.
 
@@ -374,7 +402,7 @@ image: "/images/covers/wall-06.webp"
 
 无主句就是没有主语的句子，在汉语里特别常见。想想那首《寻隐者不遇》：松下问童子——谁问？言师采药去——谁说？只在此山中——谁在？云深不知处——谁不知？每一句都没有主语，但中国人读起来毫无障碍，这就是中文。
 
-英语就不行了：**句子中必须要有主语**。所以我们的处理方式一般是——**变被动**，这也是我最推荐的方式。拿到一个句子发现不好翻，通常就是缺主语，第一反应就是被动句。
+英语就不行了：**句子中必须要有主语**。所以我们的处理方式一般是——**变被动**，这也是我最推荐的方式。非人主语的情况我后面单独说。记住这个规律：拿到一个句子发现不好翻，通常就是缺主语，第一反应就是被动句。
 
 看例子：
 
@@ -387,6 +415,8 @@ image: "/images/covers/wall-06.webp"
 再看：
 
 > 另有 850 亿元用于新建或升级城市垃圾处理和污水（sewage）处理设施，加上 300 亿元投资未来三年的植树造林（forestation）。
+
+这个句子同样缺主语，"另有 850 亿元用于……"没人知道是"谁"在用，所以被动最稳妥；后半句"加上 300 亿元投资……"同样处理成被动，两个被动句用 and 连接，干净利落：
 
 > Another 85 billion yuan will be used to build or upgrade the facilities for treatment of urban garbage and sewage and additional 30 billion yuan will be invested in forestation in the next three years.
 
@@ -417,9 +447,11 @@ image: "/images/covers/wall-06.webp"
 
 看出来了吗？评分标准翻来覆去都在强调"错误"。所以先求稳、再去秀，只要意思表达清楚，都是有分的。在这个原则下，翻译分三步走：
 
-**第一步：找到句子范围，提炼主干。** 正常来说，句子的主干无非就是主谓、主谓宾、主系表这几类。拿到一个句子，先把主干提炼出来，原则是：以简单句为主，并列句、名词性从句、定语从句、状语从句为辅。比如"中国许多地方的湖泊和池塘都适宜荷花（lotus）生长"，主干就是"湖泊和池塘适宜生长"，"适宜"是形容词 suitable，be suitable for，所以这是主系表结构：
+**第一步：找到句子范围，提炼主干。** 正常来说，句子的主干无非就是主谓、主谓宾、主系表这几类。拿到一个句子，先把主干提炼出来，原则是：以简单句为主，并列句、名词性从句、定语从句、状语从句为辅，别一上来就想着写复杂句。比如"中国许多地方的湖泊和池塘都适宜荷花（lotus）生长"，主干就是"湖泊和池塘适宜生长"。"适宜"是形容词 suitable，be suitable for，所以这是主系表结构：
 
 > The lakes and ponds are suitable for growth.
+
+主干一出来，剩下的"中国许多地方的""荷花"都是修饰，按修饰后置的原则往主干上挂就行。
 
 **第二步：将修饰部分翻译，根据修饰后置的原则融入主干。** 这里有个保命思路：若主干遭遇翻译障碍，就重新选择或替换汉语原句子的主语、谓语或系动词。单词不会写，尝试用短语；短语不会写，尝试用从句；从句不会写，尝试用单句解释。层层降级，永远有路可走。
 
@@ -431,9 +463,11 @@ image: "/images/covers/wall-06.webp"
 4. with 介词短语做后置定语：Peony with a gorgeous color and elegant image is the symbol of peace and prosperity.（with 短语能表示物体的特征，当插入语也算对）
 5. 同位语：Peony, colorful and elegant, is the symbol of peace and prosperity.
 
+你看，同一个中文句子，英语有五种完全不同的写法，全部得分。这说明翻译没有唯一答案，关键是主干清晰、语法正确、意思完整——这就是"先求稳"。
+
 顺便积累一波替换词：艳丽用 beautiful 就行；高雅是 elegant 或 graceful，还有个 gorgeous 也有高雅的意味；象征 symbolize 不会写，用 represents、means 都算对；繁荣除了 prosperity，还能用 booming。
 
-**第三步：把主干和修饰组合，检查改正。** 最常见的错误是谓语动词单复数、谓语动词唯一性、从句问题——每一个错误都要扣很多分。所以写完建议检查一遍，最好平时练习时就严格要求自己，不犯错误。另外，时态也是一大扣分点：**出现"已、了"这样的字眼，要用完成时。**
+**第三步：把主干和修饰组合，检查改正。** 最常见的错误是谓语动词单复数、谓语动词唯一性、从句问题——每一个错误都要扣很多分。所以做完建议检查一遍，最好是平时在练习时就可以不犯错误。另外，时态也是一大扣分点：**出现"已、了"这样的字眼，要用完成时。**
 
 ## 七、真题实战：2019 年 12 月荷花篇
 
@@ -455,7 +489,7 @@ image: "/images/covers/wall-06.webp"
 
 **荷花色彩鲜艳，夏日清晨绽放，夜晚闭合，花期长达两三个月，吸引来自各地的游客前往观赏。**
 
-这句话看起来吓人，其实可以拆成 2~3 个单独的句子，但我建议大家尽量写成一个长句——**长句得分更高**。官方答案的用词和句式难度都很大，大家看我下面这两个更适合考场发挥的版本：
+这句话看起来吓人，其实可以拆成 2~3 个单独的句子，但我建议大家尽量写成一个长句——**长句得分更高**。官方答案的版本，无论是用词还是句式难度都是非常大的，大家看我下面这两个更适合考场发挥的版本：
 
 > The lotus, which features bright color, blooms in the morning and closes in the evening with a long flowering period of two or three months to attract tourists across the country to appreciate it.（官方答案）
 > The lotus is bright in color, blooming in the summer morning and closing at night, with a flowering period of two or three months, attracting tourists from all over the world to appreciate it.（版本 1：确定谓语 is，其他全部处理成非谓语或从句）
@@ -465,21 +499,27 @@ image: "/images/covers/wall-06.webp"
 
 > The lotus has multiple functions. It can not only green the water surface and beautify the courtyard, but also purify water quality, reduce pollution and improve environment.
 
+can not only... but also... 把四个功能一网打尽，别自己再造新句子增加出错风险。
+
 **荷花迎骄阳而不惧，出淤泥而不染，象征纯洁、高雅，常来比喻人的高尚品德，历来是诗人画家创作的重要题材。**
 
 > The lotus, as it does not fear the strong sunshine and keeps clean in the silt, symbolizes purity and elegance and represents people's noble morals. Therefore, it has become an important theme for poets and painters throughout the Chinese history.（官方答案）
 > The lotus is fearless when facing the sun, pure and elegant when coming out of the mud. It often symbolizes purity and elegance and is often used to compare to people's noble morals. Therefore, it has always been an important theme for poets and painters.（版本 1）
 > The lotus is fearless when facing the sun, pure and elegant when coming out of the mud. It is often used as a metaphor for people's noble character, which has always been a vital theme in the creation of poets and painters.（版本 2）
 
+三个版本从官方答案到考场版，难度逐级下降，但都能把意思表达完整——这就是"先求稳"的实战示范。
+
 **荷花盛开的地方也是许多摄影爱好者经常光顾之地。**
 
 > The place where the lotus blooms is also the resort visited by photographers frequently.
 
-看，翻完一整篇，你会发现翻来覆去用到的就是那三板斧：修饰后置、多动句（非谓语）、无主句（被动/there be），再配上"先求稳"的检查原则。技巧在真题里反复出现，练多了自然就有手感了。
+看，翻完一整篇，你会发现翻来覆去用到的就是那三板斧：修饰后置、多动句（非谓语）、无主句（被动/there be），再配上"先求稳"的检查原则。你会发现我所说的技巧在题目中多次出现：修饰后置（"荷花色彩鲜艳"的定语处理）、非谓语（blooming、attracting、symbolizing）、被动（is deeply loved）。技巧不是孤立的知识点，它们会在真题里反复串场，练多了自然就有手感了。
 
 ## 写在最后
 
 六级这座山，听力是最大的坎，但它也是最值得投入的坎：技巧帮你把每一分都榨出来，功底帮你把分数上限抬上去。应试技巧就那么多，背熟、练熟、用熟；剩下的时间，老老实实按五步法磨听力，按三步法练翻译，把两套作文模板背到能默写。对了，别忘了翻译的"先求稳，再去秀"——考场上宁可写得简单，也别冒险写错，简单能拿分，写错一分没有。
+
+有人问我考前最后几天到底该干嘛？我的排序是：听力用五步法磨 2~3 篇真题，翻译把修饰后置、多动句、无主句各练 5 句，作文两套模板各默写三遍。按这个顺序来，考前心里就有底了。
 
 等上了考场你会发现：它嘚吧嘚它的，你写你的，稳稳的。
 
