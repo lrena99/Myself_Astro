@@ -18,17 +18,29 @@ image: "/images/covers/wall-29.webp"
 
 ![实物照片](/images/posts/ssd-inventory/02.webp)
 
+![测试截图](/images/posts/ssd-inventory/06.webp)
+
+![测试截图](/images/posts/ssd-inventory/07.webp)
+
 ## 铠侠 RC20
 
 12 月 18 日，RC20 到手。同样是拍照、测试的标准流程，测试截图存了好几张。
 
 ![实物照片](/images/posts/ssd-inventory/03.webp)
 
+![测试截图](/images/posts/ssd-inventory/08.webp)
+
+![测试截图](/images/posts/ssd-inventory/09.webp)
+
+![测试截图](/images/posts/ssd-inventory/10.webp)
+
 ## Intel S4500 240G
 
 同一天，Intel S4500 240G 也到了，240G 容量，和 RC20 一起完成了测试入库。
 
 ![实物照片](/images/posts/ssd-inventory/04.webp)
+
+![测试截图](/images/posts/ssd-inventory/05.webp)
 
 ## 小结
 
