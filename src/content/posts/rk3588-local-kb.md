@@ -5,7 +5,7 @@ description: "在一台 Orange Pi 5 Max 上部署本地知识库的全过程：N
 tags: ["RK3588", "NPU", "本地部署", "知识库", "RAG", "大模型"]
 category: "AI"
 draft: false
-image: "/images/covers/cover-01.webp"
+image: "/images/covers/wall-45.webp"
 ---
 
 2026 年 8 月，我终于在自己那台 Orange Pi 5 Max 上把本地知识库完整跑通了：文本 RAG 问答、NPU 嵌入、多模态识图，全部在本地完成，不碰任何云端。这篇文章是完整复盘——**特别是那些让我重启了七次、差点把系统搞黑的 NPU 驱动坑**。
