@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="box2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="box3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="640" y="55" font-family="sans-serif" font-size="34" font-weight="bold" fill="#f1f5f9" text-anchor="middle">RK3588 本地知识库架构</text>
+  <text x="640" y="90" font-family="sans-serif" font-size="20" fill="#94a3b8" text-anchor="middle">Orange Pi 5 Max · Qwen3-VL-4B · NPU 推理 · RAG</text>
+
+  <!-- 硬件层 -->
+  <rect x="60" y="130" width="1160" height="100" rx="14" fill="#334155" opacity="0.5"/>
+  <text x="90" y="162" font-family="sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0">硬件层</text>
+  <rect x="90" y="175" width="250" height="40" rx="8" fill="#475569"/>
+  <text x="215" y="202" font-family="sans-serif" font-size="18" fill="#f8fafc" text-anchor="middle">RK3588 · 8 核 CPU</text>
+  <rect x="370" y="175" width="250" height="40" rx="8" fill="#475569"/>
+  <text x="495" y="202" font-family="sans-serif" font-size="18" fill="#f8fafc" text-anchor="middle">NPU 3 核 · 6 TOPS</text>
+  <rect x="650" y="175" width="250" height="40" rx="8" fill="#475569"/>
+  <text x="775" y="202" font-family="sans-serif" font-size="18" fill="#f8fafc" text-anchor="middle">16GB DDR</text>
+  <rect x="930" y="175" width="260" height="40" rx="8" fill="#475569"/>
+  <text x="1060" y="202" font-family="sans-serif" font-size="18" fill="#f8fafc" text-anchor="middle">M.2 NVMe 启动</text>
+
+  <!-- 服务链 -->
+  <rect x="60" y="260" width="1160" height="330" rx="14" fill="#1e293b" opacity="0.7"/>
+  <text x="90" y="295" font-family="sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0">服务链（systemd 依赖）</text>
+
+  <!-- rknpu098 -->
+  <rect x="90" y="315" width="330" height="110" rx="12" fill="url(#box1)"/>
+  <text x="255" y="348" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">rknpu098-load.service</text>
+  <text x="255" y="376" font-family="sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">NPU 驱动 0.9.8（外部模块）</text>
+  <text x="255" y="400" font-family="sans-serif" font-size="14" fill="#bfdbfe" text-anchor="middle">initcall_blacklist 屏蔽 builtin 0.9.6</text>
+
+  <!-- rkllm -->
+  <rect x="475" y="315" width="330" height="110" rx="12" fill="url(#box2)"/>
+  <text x="640" y="348" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">rkllm.service · :8080</text>
+  <text x="640" y="376" font-family="sans-serif" font-size="16" fill="#d1fae5" text-anchor="middle">Qwen3-VL-4B（4.85GB）</text>
+  <text x="640" y="400" font-family="sans-serif" font-size="14" fill="#a7f3d0" text-anchor="middle">文本推理 + NPU 嵌入(10240 维)</text>
+
+  <!-- kb-service -->
+  <rect x="860" y="315" width="330" height="110" rx="12" fill="url(#box3)"/>
+  <text x="1025" y="348" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">kb-service · :8000</text>
+  <text x="1025" y="376" font-family="sans-serif" font-size="16" fill="#fef3c7" text-anchor="middle">FastAPI + ChromaDB + Web UI</text>
+  <text x="1025" y="400" font-family="sans-serif" font-size="14" fill="#fde68a" text-anchor="middle">RAG 检索 · 问答 · 批量入库</text>
+
+  <!-- 箭头 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  <line x1="420" y1="370" x2="470" y2="370" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="805" y1="370" x2="855" y2="370" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- 使用场景 -->
+  <rect x="90" y="450" width="1100" height="120" rx="12" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="482" font-family="sans-serif" font-size="18" font-weight="bold" fill="#e2e8f0">使用场景</text>
+  <text x="120" y="512" font-family="sans-serif" font-size="16" fill="#94a3b8">· RAG 问答：知识库检索 + NPU 生成（约 5.7 tokens/s，单线程）</text>
+  <text x="120" y="538" font-family="sans-serif" font-size="16" fill="#94a3b8">· 多模态识图：vision rknn 编码 → LLM 推理（分离流程，约 1 分钟/张）</text>
+  <text x="120" y="564" font-family="sans-serif" font-size="16" fill="#94a3b8">· 嵌入：Qwen3-VL hidden states，10240 维，全 NPU</text>
+</svg>
