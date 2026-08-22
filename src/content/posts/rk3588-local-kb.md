@@ -75,6 +75,8 @@ gdb -batch -ex "ptype /o struct rknpu_device" rknpu098.ko | grep multiple_domain
 
 ## 识图：模型"看"图片的两条路线
 
+![装饰插画：识图与多模态的想象](/images/posts/rk3588-local-kb/03.webp)
+
 知识库跑通后，我想让模型直接看图。这里我踩了一个很有意思的坑，值得展开说说。
 
 ### 路线一：官方推理服务的"伪多模态"
@@ -147,6 +149,8 @@ systemctl reset-failed rkllm    # 清 failed 状态才能再次 start
 - 4.85GB 模型加载后内存占用约 4.5GB（16GB 内存毫无压力）
 
 ## 最后
+
+![装饰插画：折腾与收获](/images/posts/rk3588-local-kb/02.webp)
 
 这次折腾最大的感受是：**开发板跑本地大模型，瓶颈永远在驱动和工程细节，而不是模型本身**。Qwen3-VL-4B 在 6 TOPS 的 NPU 上能稳定推理、能嵌入、能识图，体验完全可用——而让它跑起来的代价，是两天时间加七次黑屏。
 
