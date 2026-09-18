@@ -34,7 +34,17 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: |
+          set +e
+          pnpm build > /tmp/build.log 2>&1
+          rc=$?
+          if [ $rc -ne 0 ]; then
+            echo "### Build failed (exit $rc)" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            tail -100 /tmp/build.log >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+          exit $rc
 
       - name: Submit new URLs to IndexNow (Bing / Yandex / Naver / Seznam)
         env:
