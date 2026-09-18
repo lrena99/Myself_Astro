@@ -108,9 +108,12 @@ if (title) {
 		: siteConfig.title;
 }
 
-let ogImageUrl: string | undefined;
+// 分享缩略图优先级：主题自带的 /og/<slug>.png（需开启 generateOgImages）→ 文章封面 → 站点横幅（在 HeadTags 里兜底）
+let shareImageUrl: string | undefined;
 if (siteConfig.generateOgImages && postSlug) {
-	ogImageUrl = new URL(`/og/${postSlug}.png`, Astro.site).toString();
+	shareImageUrl = new URL(`/og/${postSlug}.png`, Astro.site).toString();
+} else if (ogImageUrl) {
+	shareImageUrl = ogImageUrl;
 }
 
 // const siteLang = siteConfig.lang.replace('_', '-')
@@ -182,7 +185,7 @@ if (siteConfig.font) {
 			title={pageTitle}
 			description={description}
 			keywords={keywords}
-			ogImageUrl={ogImageUrl}
+			ogImageUrl={shareImageUrl}
 			setOGTypeArticle={setOGTypeArticle}
 			configHue={configHue}
 		/>
