@@ -47,13 +47,15 @@ const keywords = [
 ].filter((k, i, arr) => k && arr.indexOf(k) === i);
 
 // 规范链接：去掉查询串与锚点，避免 ?utm= 之类的重复内容
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+// 用 import.meta.env.SITE（string）而不是 Astro.site（URL | undefined），避免类型收窄麻烦
+const siteBase = import.meta.env.SITE;
+const canonicalUrl = new URL(Astro.url.pathname, siteBase).href;
 
 // Open Graph 图片兜底：没传就用站点第一张横幅图（保证每页都有分享缩略图）
 // 用主题的 url() 补 base 前缀（md 里的 /images/... 是相对站点根的）
 const ogImage = new URL(
 	url(ogImageUrl || "/assets/desktop-banner/1.webp"),
-	Astro.site,
+	siteBase,
 ).href;
 
 // Favicons

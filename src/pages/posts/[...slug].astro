@@ -178,12 +178,12 @@ const jsonLd = {
 	description: entry.data.description || entry.data.title,
 	keywords: entry.data.tags,
 	image: entry.data.image
-		? [new URL(url(entry.data.image), Astro.site).href]
+		? [new URL(url(entry.data.image), import.meta.env.SITE).href]
 		: undefined,
-	url: new URL(Astro.url.pathname, Astro.site).href,
+	url: new URL(Astro.url.pathname, import.meta.env.SITE).href,
 	mainEntityOfPage: {
 		"@type": "WebPage",
-		"@id": new URL(Astro.url.pathname, Astro.site).href,
+		"@id": new URL(Astro.url.pathname, import.meta.env.SITE).href,
 	},
 	author: {
 		"@type": "Person",
