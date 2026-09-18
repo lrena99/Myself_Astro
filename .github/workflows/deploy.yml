@@ -36,6 +36,13 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Submit new URLs to IndexNow (Bing / Yandex / Naver / Seznam)
+        env:
+          INDEXNOW_KEY: b159938d844fa45eb71e5ff58da98e6e
+          INDEXNOW_HOST: lrena99.github.io
+          INDEXNOW_KEY_LOCATION: https://lrena99.github.io/Myself_Astro/b159938d844fa45eb71e5ff58da98e6e.txt
+        run: node scripts/indexnow-submit.js || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

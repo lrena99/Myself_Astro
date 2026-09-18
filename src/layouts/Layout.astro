@@ -26,13 +26,23 @@ interface Props {
 	title?: string;
 	banner?: string;
 	description?: string;
+	keywords?: string[];
 	lang?: string;
 	setOGTypeArticle?: boolean;
+	ogImageUrl?: string;
 	postSlug?: string;
 }
 
-let { title, banner, description, lang, setOGTypeArticle, postSlug } =
-	Astro.props;
+let {
+	title,
+	banner,
+	description,
+	keywords,
+	lang,
+	setOGTypeArticle,
+	ogImageUrl,
+	postSlug,
+} = Astro.props;
 
 // apply a class to the body element to decide the height of the banner, only used for initial page load
 // Swup can update the body for each page visit, but it's after the page transition, causing a delay for banner height change
@@ -171,6 +181,7 @@ if (siteConfig.font) {
 		<HeadTags
 			title={pageTitle}
 			description={description}
+			keywords={keywords}
 			ogImageUrl={ogImageUrl}
 			setOGTypeArticle={setOGTypeArticle}
 			configHue={configHue}

@@ -21,6 +21,7 @@ interface Props {
 	// SEO
 	title: string;
 	description?: string;
+	keywords?: string[];
 
 	// Open Graph
 	ogImageUrl?: string;
@@ -33,13 +34,27 @@ interface Props {
 const {
 	title,
 	description,
+	keywords: pageKeywords,
 	ogImageUrl,
 	setOGTypeArticle = false,
 	configHue,
 } = Astro.props;
 
-// 关键词
-const keywords = siteConfig.keywords;
+// 关键词：站点关键词 + 页面关键词（文章 tags）
+const keywords = [
+	...(siteConfig.keywords ?? []),
+	...(pageKeywords ?? []),
+].filter((k, i, arr) => k && arr.indexOf(k) === i);
+
+// 规范链接：去掉查询串与锚点，避免 ?utm= 之类的重复内容
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+// Open Graph 图片兜底：没传就用站点第一张横幅图（保证每页都有分享缩略图）
+// 用主题的 url() 补 base 前缀（md 里的 /images/... 是相对站点根的）
+const ogImage = new URL(
+	url(ogImageUrl || "/assets/desktop-banner/1.webp"),
+	Astro.site,
+).href;
 
 // Favicons
 const favicons: Favicon[] =
@@ -50,18 +65,26 @@ const favicons: Favicon[] =
 <title>{title}</title>
 <meta name="description" content={description || title} />
 {
-	keywords && keywords.length > 0 && (
+	keywords.length > 0 && (
 		<meta name="keywords" content={keywords.join(", ")} />
 	)
 }
 <meta name="author" content={profileConfig.name} />
+<link rel="canonical" href={canonicalUrl} />
+<meta
+	name="robots"
+	content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+/>
 
 <!-- Open Graph Tags -->
 <meta property="og:site_name" content={siteConfig.title} />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalUrl} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description || title} />
-{ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
 {
 	setOGTypeArticle ? (
 		<meta property="og:type" content="article" />
@@ -72,9 +95,10 @@ const favicons: Favicon[] =
 
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description || title} />
+<meta property="twitter:url" content={canonicalUrl} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description || title} />
+<meta name="twitter:image" content={ogImage} />
 
 <!-- Viewport and Generator -->
 <meta name="viewport" content="width=device-width" />

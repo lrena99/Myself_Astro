@@ -28,8 +28,10 @@ interface Props {
 	title?: string;
 	banner?: string;
 	description?: string;
+	keywords?: string[];
 	lang?: string;
 	setOGTypeArticle?: boolean;
+	ogImageUrl?: string;
 	postSlug?: string;
 	headings?: MarkdownHeading[];
 }
@@ -41,8 +43,10 @@ const {
 	title,
 	banner,
 	description,
+	keywords,
 	lang,
 	setOGTypeArticle,
+	ogImageUrl,
 	postSlug,
 	headings = [],
 } = Astro.props;
@@ -92,8 +96,10 @@ const defaultPostListLayout = siteConfig.postListLayout?.defaultMode || "list";
 	title={title}
 	banner={banner}
 	description={description}
+	keywords={keywords}
 	lang={lang}
 	setOGTypeArticle={setOGTypeArticle}
+	ogImageUrl={ogImageUrl}
 	postSlug={postSlug}
 >
 	<GridScripts

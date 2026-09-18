@@ -26,6 +26,19 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "Lrena 的博客",
 	subtitle: "记录生活与热爱",
+	keywords: [
+		"Lrena",
+		"Lrena 的博客",
+		"自建服务器",
+		"本地大模型",
+		"llama.cpp",
+		"NAS",
+		"Proxmox",
+		"homelab",
+		"网络折腾",
+		"硬件收藏",
+		"技术笔记",
+	],
 	siteURL: "https://lrena99.github.io/Myself_Astro/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 

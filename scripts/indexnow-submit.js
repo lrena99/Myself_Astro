@@ -46,7 +46,9 @@ async function submitToIndexNow(urls) {
 
 	const apiKey = process.env.INDEXNOW_KEY;
 	const host = process.env.INDEXNOW_HOST;
-	const keyLocation = `https://${host}/${apiKey}.txt`;
+	// GitHub Pages 项目页的 key 文件不在 host 根目录，用 INDEXNOW_KEY_LOCATION 显式指定
+	const keyLocation =
+		process.env.INDEXNOW_KEY_LOCATION || `https://${host}/${apiKey}.txt`;
 
 	if (!apiKey || !host) {
 		console.error(
